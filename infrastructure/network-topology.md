@@ -63,16 +63,6 @@ Inter-VLAN firewall rules are documented in the [Firewall](/security-stack/firew
 
 ---
 
-
-## ISP & WAN
-
-| Property | Value |
-|---|---|
-| ISP | Caiway NL |
-| WAN Uplink | 10 GbE to Dream Machine Pro |
-
----
-
 ## Traffic Flow
 
 - All traffic is routed through the Dream Machine Pro
