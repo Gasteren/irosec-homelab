@@ -4,7 +4,7 @@ Proxmox VE is the hypervisor running the irosec homelab. It hosts all virtual ma
 
 ---
 
-## Host Details
+## Host Detailsz
 
 | Component | Details |
 |---|---|
