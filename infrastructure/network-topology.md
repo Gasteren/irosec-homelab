@@ -55,7 +55,7 @@ Inter-VLAN firewall rules are documented in the [Firewall](/security-stack/firew
 
 ![Data Summary](http://img.irosec.com/u/FxIGwa.png)
 
----
+
 
 ### Flow Summary
 
