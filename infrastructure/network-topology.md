@@ -44,6 +44,26 @@ Inter-VLAN firewall rules are documented in the [Firewall](/security-stack/firew
 
 ---
 
+## Network Traffic Overview
+
+> ⚠️ **Note:** This is live production traffic, not a sandboxed instance.  
+> 📅 **Period:** February 10, 2026 – March 9, 2026
+
+---
+
+### Data Summary
+
+![Data Summary](http://img.irosec.com/u/FxIGwa.png)
+
+---
+
+### Flow Summary
+
+![Flow Summary](http://img.irosec.com/u/DeTMql.png)
+
+---
+
+
 ## ISP & WAN
 
 | Property | Value |
