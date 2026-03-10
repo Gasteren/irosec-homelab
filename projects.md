@@ -15,6 +15,8 @@ The advantage of working on a live homelab rather than a sandboxed lab is that t
 | [Firewall Policy Design](/projects/firewall-policy) | Configured zone-based firewall with 66 rules across all VLANs on the Dream Machine Pro |
 | [IDS/IPS Deployment](/projects/ids-ips-deployment) | Deployed Unifi Threat Management across all four VLANs with full detection category coverage and per-rule tuning |
 | [Honeypot Per VLAN](/projects/honeypot) | Configured honeypot addresses on every VLAN for lateral movement and rogue device detection |
+| [SIEM Deployment + Unifi Log Forwarding](/projects/siem) | Deployed Wazuh 4.14.3 on a dedicated Proxmox VM and onboarded all homelab hosts including Windows endpoints and Docker host, Forwarded Dream Machine Pro syslog to Wazuh with custom decoders and firewall rules for centralised correlation |
+| [NPM Log Parsing](/projects/siem) | Configured Wazuh agent on Docker host to ingest Nginx Proxy Manager access logs across all proxy hosts for centralised web traffic visibility |
 
 ---
 
@@ -22,8 +24,7 @@ The advantage of working on a live homelab rather than a sandboxed lab is that t
 
 | Project | Description | Status |
 |---|---|---|
-| SIEM Deployment | Deploy Wazuh on a dedicated Proxmox VM and onboard all homelab hosts |⏳ In Progress |
-| Unifi Log Forwarding | Forward Dream Machine Pro logs to Wazuh for centralised correlation | ⏳ In Progress |
+| Wazuh + Grafana Dashboard | Build a live security dashboard visualising alerts, log volume, and threat trends across all VLANs | ⏳ In Progress |
 
 ---
 
@@ -31,7 +32,7 @@ The advantage of working on a live homelab rather than a sandboxed lab is that t
 
 | Project | Description |
 |---|---|
-| Wazuh + Grafana Dashboard | Build a live security dashboard visualising alerts, log volume, and threat trends across all VLANs |
 | Port Scan Detection | Run Nmap against a homelab VM and verify detection and alerting end-to-end in the SIEM |
+| SIEM Notifications | Configure email or Discord alerts for high severity Wazuh events |
 
 ---
