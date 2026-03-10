@@ -25,4 +25,4 @@ Unlike a purpose-built security lab, this tooling is being applied to a real, ac
 
 ---
 
-*This section grows as new tools are deployed and configured.*
+*This section grows as new tools are deployed and configured...*
