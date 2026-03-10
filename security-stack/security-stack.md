@@ -20,7 +20,7 @@ Unlike a purpose-built security lab, this tooling is being applied to a real, ac
 |---|---|---|
 | Firewall | Unifi Gateway | ✅ Active |
 | IDS/IPS | Unifi Threat Management | ✅ Active |
-| SIEM | *(Wazuh — planned)* | 🔜 Planned |
+| SIEM | Wazuh | ✅ Active |
 | Log Visualization | *(Grafana — planned)* | 🔜 Planned |
 
 ---
