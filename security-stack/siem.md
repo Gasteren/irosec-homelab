@@ -175,7 +175,7 @@ Wazuh automatically scans all connected agents for known CVEs and correlates aga
 |---|---|---|---|
 | Docker-Containers | 9 | ~658 | Fully patched; remaining are unpatched Ubuntu 22.04 CVEs |
 | Windows-Carlo-PC | 1 | ~105 | Fully patched; remaining are unpatched Windows 11 CVEs |
-| Windows-Demy-PC | 2 | 9 | Run Windows Update to resolve 2025 CVEs |
+| Windows-Demy-PC | 1 | 9 | Fully patched; remaining are unpatched Windows 11 CVEs |
 
 ### Packages Cleaned Up
 
@@ -185,7 +185,7 @@ Wazuh automatically scans all connected agents for known CVEs and correlates aga
 
 ### Known False Positives
 
-- **CVE-2026-24811** — affects CERN ROOT framework (physics research tool). ROOT is not installed on any machine in this lab. This CVE can be safely ignored.
+- **CVE-2026-24811** — affects CERN ROOT framework (physics research tool). ROOT is not installed on any machine. This CVE can be safely ignored.
 
 ---
 
@@ -204,12 +204,3 @@ systemctl daemon-reload
 ```
 
 ---
-
-## Pending / Next Steps
-
-- [ ] Write custom NPM log decoder to parse response codes, URLs, and client IPs
-- [ ] Create alert rules for 401/403 spikes and 404 scanning on NPM
-- [ ] Alert on non-Cloudflare IPs hitting services directly (Cloudflare bypass detection)
-- [ ] Set up email or Slack/Discord notifications for high severity alerts
-- [ ] Enable File Integrity Monitoring (FIM) on Docker host config directories
-- [ ] Run Windows Update on Demy-PC to resolve 2025 CVEs
