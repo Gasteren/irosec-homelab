@@ -10,6 +10,7 @@ The advantage of working on a live homelab rather than a sandboxed lab is that t
 
 | Project | Description |
 |---|---|
+| [Hall of Fallen Heroes](/projects/hall-of-fallen-heroes) | Built and secured a self-hosted WoW guild death memorial app, identified a critical auth vulnerability, applied 7 security fixes. |
 | [Homelab Documentation](/) | Built and published a full technical wiki documenting the entire homelab stack |
 | [VLAN Segmentation](/projects/vlan-segmentation) | Designed and implemented four-VLAN network architecture across all devices |
 | [Firewall Policy Design](/projects/firewall-policy) | Configured zone-based firewall with 66 rules across all VLANs on the Dream Machine Pro |
