@@ -25,7 +25,7 @@ jobs:
 
           API_KEY = os.environ["CURSEFORGE_API_KEY"]
           BASE = "https://api.curseforge.com/v1"
-          HEADERS = {"x-api-key": API_KEY, "Accept": "application/json"}
+          HEADERS = {"x-api-key": API_KEY, "Accept": "application/json", "User-Agent": "irosec-addon-stats-sync/1.0"}
 
           SLUGS = [
               "handynotes-ancientshrines",
