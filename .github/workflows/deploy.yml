@@ -1,0 +1,16 @@
+name: Deploy wiki
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, dockerserver]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build and deploy
+        run: |
+          docker compose build
+          docker compose up -d
