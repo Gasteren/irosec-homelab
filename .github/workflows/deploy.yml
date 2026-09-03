@@ -10,7 +10,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Sync docs into site scaffold
+        run: |
+          SCAFFOLD=/mnt/mainraid/compose/starlight-wiki
+          for dir in infrastructure security-stack projects lessons-learned; do
+            rm -rf "$SCAFFOLD/src/content/docs/$dir"
+            cp -r "$dir" "$SCAFFOLD/src/content/docs/$dir"
+          done
+
       - name: Build and deploy
+        working-directory: /mnt/mainraid/compose/starlight-wiki
         run: |
           docker compose build
           docker compose up -d
