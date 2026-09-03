@@ -4,7 +4,7 @@ description: Homelab and security portfolio documentation. Proxmox, Docker, UniF
 template: splash
 hero:
   title: irosec
-  tagline: Documentation for a self hosted homelab, built and maintained as production infrastructure.
+  tagline: Documentation for a self hosted homelab, built and maintained as production infrastructure. Auto-deployed from GitHub.
   image:
     file: ../../assets/hero.svg
   actions:
