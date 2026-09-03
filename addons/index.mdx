@@ -4,6 +4,7 @@ description: World of Warcraft addons published on CurseForge under frostaphim.
 ---
 
 import stats from '../../../data/addon-stats.json';
+import SyncCountdown from '../../../components/SyncCountdown.astro';
 
 export function dl(slug) {
   const addon = stats.addons.find((a) => a.slug === slug);
@@ -12,7 +13,7 @@ export function dl(slug) {
 }
 
 <div class="stat-bar">
-	<strong>{stats.total_downloads.toLocaleString()}</strong> downloads · auto-updates every 30 minutes
+	<strong>{stats.total_downloads.toLocaleString()}</strong> downloads · next sync in <SyncCountdown />
 </div>
 
 Published on CurseForge under the [frostaphim](https://www.curseforge.com/members/frostaphim/projects) handle. Development uses GitHub Actions for automated releases to CurseForge on push to main.
@@ -65,4 +66,4 @@ Not yet published on CurseForge:
 - **GuildPanel** - guild management UI targeting WoW patch 12.0 (Midnight), with loot log and applicant tracking.
 - **VaultKeeper** - active development.
 
-*Downloads last synced: {new Date(stats.updated).toLocaleDateString()}*
+*Downloads last synced: {new Date(stats.updated).toLocaleString()}*
