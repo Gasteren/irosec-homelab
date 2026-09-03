@@ -10,7 +10,11 @@ export function dl(slug) {
   return addon ? addon.downloads.toLocaleString() : '—';
 }
 
-{stats.total_downloads.toLocaleString()}+ downloads across {stats.addon_count} published addons on CurseForge under the [frostaphim](https://www.curseforge.com/members/frostaphim/projects) handle. Development uses GitHub Actions for automated releases to CurseForge on push to main. Download counts sync daily from the CurseForge API.
+<div class="stat-bar">
+	<strong>{stats.total_downloads.toLocaleString()}</strong> downloads · auto-updates every 30 minutes
+</div>
+
+Published on CurseForge under the [frostaphim](https://www.curseforge.com/members/frostaphim/projects) handle. Development uses GitHub Actions for automated releases to CurseForge on push to main.
 
 ## Map & navigation
 
