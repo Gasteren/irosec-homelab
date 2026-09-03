@@ -3,7 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: starlight-wiki
     restart: unless-stopped
     ports:
       - "8093:80"   # pick a free host port; NPM proxies wiki.irosec.com -> this
