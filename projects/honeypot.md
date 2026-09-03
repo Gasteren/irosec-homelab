@@ -37,7 +37,7 @@ Honeypots are a deception-based detection technique. Rather than relying solely 
 
 **4. Confirmed alerting** - Verified that the Unifi controller would generate an alert if any device contacted a honeypot address.
 
-![Honeypot alert](https://img.irosec.com/u/Hn9M0S.jpg)
+![Honeypot alert](https://img.irosec.com/u/icXczW.png)
 
 ---
 
