@@ -14,7 +14,7 @@ jobs:
         run: |
           SCAFFOLD=/mnt/mainraid/compose/starlight-wiki
           mkdir -p "$SCAFFOLD/src/content/docs"
-          for dir in infrastructure security-stack projects lessons-learned; do
+          for dir in infrastructure security-stack projects lessons-learned addons; do
             rm -rf "$SCAFFOLD/src/content/docs/$dir"
             cp -r "$dir" "$SCAFFOLD/src/content/docs/$dir"
           done
