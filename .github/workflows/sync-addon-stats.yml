@@ -1,0 +1,108 @@
+name: Sync addon stats
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 06:00 UTC
+  workflow_dispatch: {}    # allows manual runs from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats from CurseForge and write data/addon-stats.json
+        env:
+          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+        run: |
+          python3 - << 'PYEOF'
+          import json
+          import os
+          import sys
+          import urllib.request
+          import urllib.parse
+          from datetime import datetime, timezone
+
+          API_KEY = os.environ["CURSEFORGE_API_KEY"]
+          BASE = "https://api.curseforge.com/v1"
+          HEADERS = {"x-api-key": API_KEY, "Accept": "application/json"}
+
+          SLUGS = [
+              "handynotes-ancientshrines",
+              "handynotes-jetpacks",
+              "betterbags-fishing",
+              "adibags-fishing",
+              "interrupted-x",
+              "interruptbar-v1",
+              "handynotes-naigtalteleports",
+              "handynotes-valteleports",
+              "twitch-drops-watcher",
+              "leveltimetracker",
+              "lozn64-levelup",
+              "afkdelight",
+              "timestamp",
+              "repkeeper",
+              "hall-of-fallen-heroes-wd",
+              "antisocial",
+          ]
+
+          def api_get(path, params):
+              url = f"{BASE}{path}?{urllib.parse.urlencode(params)}"
+              req = urllib.request.Request(url, headers=HEADERS)
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  return json.loads(resp.read())
+
+          # Find WoW's numeric game id dynamically rather than hardcoding it.
+          games = api_get("/games", {"pageSize": 50})
+          wow_id = None
+          for g in games.get("data", []):
+              name = g.get("name", "").lower()
+              slug = g.get("slug", "").lower()
+              if "warcraft" in name or slug == "wow":
+                  wow_id = g["id"]
+                  break
+
+          if wow_id is None:
+              print("Could not find World of Warcraft in /v1/games response", file=sys.stderr)
+              print(json.dumps(games, indent=2), file=sys.stderr)
+              sys.exit(1)
+
+          addons = []
+          total = 0
+          for slug in SLUGS:
+              result = api_get("/mods/search", {"gameId": wow_id, "slug": slug, "pageSize": 1})
+              data = result.get("data", [])
+              if not data:
+                  print(f"WARNING: no result for slug '{slug}'", file=sys.stderr)
+                  continue
+              mod = data[0]
+              downloads = int(mod.get("downloadCount", 0))
+              addons.append({
+                  "name": mod.get("name"),
+                  "slug": slug,
+                  "downloads": downloads,
+                  "url": mod.get("links", {}).get("websiteUrl"),
+              })
+              total += downloads
+
+          out = {
+              "total_downloads": total,
+              "addon_count": len(addons),
+              "updated": datetime.now(timezone.utc).isoformat(),
+              "addons": sorted(addons, key=lambda a: a["downloads"], reverse=True),
+          }
+
+          os.makedirs("data", exist_ok=True)
+          with open("data/addon-stats.json", "w") as f:
+              json.dump(out, f, indent=2)
+
+          print(f"Wrote data/addon-stats.json: {total} total downloads across {len(addons)} addons")
+          PYEOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/addon-stats.json
+          git diff --cached --quiet && echo "No changes" || git commit -m "Update addon stats"
+          git push

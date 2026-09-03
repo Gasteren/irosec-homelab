@@ -18,6 +18,8 @@ jobs:
             rm -rf "$SCAFFOLD/src/content/docs/$dir"
             cp -r "$dir" "$SCAFFOLD/src/content/docs/$dir"
           done
+          mkdir -p "$SCAFFOLD/src/data"
+          cp data/addon-stats.json "$SCAFFOLD/src/data/addon-stats.json" 
 
       - name: Build and deploy
         working-directory: /mnt/mainraid/compose/starlight-wiki
