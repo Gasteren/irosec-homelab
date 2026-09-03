@@ -7,7 +7,8 @@ import stats from '../../../data/addon-stats.json';
 
 export function dl(slug) {
   const addon = stats.addons.find((a) => a.slug === slug);
-  return addon ? addon.downloads.toLocaleString() : '—';
+  const value = addon ? addon.downloads.toLocaleString() : '—';
+  return <span class="dl-badge">{value}</span>;
 }
 
 <div class="stat-bar">
