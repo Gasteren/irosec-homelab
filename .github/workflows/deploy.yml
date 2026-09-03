@@ -13,6 +13,7 @@ jobs:
       - name: Sync docs into site scaffold
         run: |
           SCAFFOLD=/mnt/mainraid/compose/starlight-wiki
+          mkdir -p "$SCAFFOLD/src/content/docs"
           for dir in infrastructure security-stack projects lessons-learned; do
             rm -rf "$SCAFFOLD/src/content/docs/$dir"
             cp -r "$dir" "$SCAFFOLD/src/content/docs/$dir"
