@@ -1,23 +1,103 @@
 {
-  "total_downloads": 886300,
+  "total_downloads": 886133,
   "addon_count": 16,
-  "updated": "2026-09-03T00:00:00+00:00",
+  "updated": "2026-09-03T11:14:35.831248+00:00",
   "addons": [
-    {"name": "HandyNotes_AncientShrines", "slug": "handynotes-ancientshrines", "downloads": 434500, "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"},
-    {"name": "Handynotes_Jetpacks", "slug": "handynotes-jetpacks", "downloads": 232100, "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"},
-    {"name": "BetterBags - Fishing", "slug": "betterbags-fishing", "downloads": 95400, "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"},
-    {"name": "Adibags_Fishing", "slug": "adibags-fishing", "downloads": 68100, "url": "https://www.curseforge.com/wow/addons/adibags-fishing"},
-    {"name": "Interrupted v5", "slug": "interrupted-x", "downloads": 21300, "url": "https://www.curseforge.com/wow/addons/interrupted-x"},
-    {"name": "XInterruptBar", "slug": "interruptbar-v1", "downloads": 18200, "url": "https://www.curseforge.com/wow/addons/interruptbar-v1"},
-    {"name": "HandyNotes_NaigtalTeleports", "slug": "handynotes-naigtalteleports", "downloads": 2500, "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"},
-    {"name": "Level Time Tracker", "slug": "leveltimetracker", "downloads": 2100, "url": "https://www.curseforge.com/wow/addons/leveltimetracker"},
-    {"name": "HandyNotes_ValTeleports", "slug": "handynotes-valteleports", "downloads": 1800, "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"},
-    {"name": "LoZN64 Legend of Zelda LevelUp", "slug": "lozn64-levelup", "downloads": 1800, "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"},
-    {"name": "AfkDelight", "slug": "afkdelight", "downloads": 1500, "url": "https://www.curseforge.com/wow/addons/afkdelight"},
-    {"name": "TimeStamp", "slug": "timestamp", "downloads": 1400, "url": "https://www.curseforge.com/wow/addons/timestamp"},
-    {"name": "Twitch Drops Watcher", "slug": "twitch-drops-watcher", "downloads": 4600, "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"},
-    {"name": "RepKeeper", "slug": "repkeeper", "downloads": 106, "url": "https://www.curseforge.com/wow/addons/repkeeper"},
-    {"name": "AntiSocial", "slug": "antisocial", "downloads": 69, "url": "https://www.curseforge.com/wow/addons/antisocial"},
-    {"name": "Hall of Fallen Heroes [WD]", "slug": "hall-of-fallen-heroes-wd", "downloads": 63, "url": "https://www.curseforge.com/wow/addons/hall-of-fallen-heroes-wd"}
+    {
+      "name": "HandyNotes_AncientShrines",
+      "slug": "handynotes-ancientshrines",
+      "downloads": 434516,
+      "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
+    },
+    {
+      "name": "Handynotes_Jetpacks",
+      "slug": "handynotes-jetpacks",
+      "downloads": 232159,
+      "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
+    },
+    {
+      "name": "BetterBags - Fishing",
+      "slug": "betterbags-fishing",
+      "downloads": 95420,
+      "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
+    },
+    {
+      "name": "Adibags_Fishing",
+      "slug": "adibags-fishing",
+      "downloads": 68133,
+      "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
+    },
+    {
+      "name": "Interrupted v5",
+      "slug": "interrupted-x",
+      "downloads": 21301,
+      "url": "https://www.curseforge.com/wow/addons/interrupted-x"
+    },
+    {
+      "name": "XInterruptBar",
+      "slug": "interruptbar-v1",
+      "downloads": 18272,
+      "url": "https://www.curseforge.com/wow/addons/interruptbar-v1"
+    },
+    {
+      "name": "Twitch Drops Watcher",
+      "slug": "twitch-drops-watcher",
+      "downloads": 4672,
+      "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
+    },
+    {
+      "name": "HandyNotes_NaigtalTeleports",
+      "slug": "handynotes-naigtalteleports",
+      "downloads": 2534,
+      "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
+    },
+    {
+      "name": "Level Time Tracker",
+      "slug": "leveltimetracker",
+      "downloads": 2147,
+      "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
+    },
+    {
+      "name": "LoZN64 | Legend of Zelda LevelUp!",
+      "slug": "lozn64-levelup",
+      "downloads": 1892,
+      "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
+    },
+    {
+      "name": "HandyNotes_ValTeleports",
+      "slug": "handynotes-valteleports",
+      "downloads": 1839,
+      "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
+    },
+    {
+      "name": "AfkDelight",
+      "slug": "afkdelight",
+      "downloads": 1590,
+      "url": "https://www.curseforge.com/wow/addons/afkdelight"
+    },
+    {
+      "name": "TimeStamp",
+      "slug": "timestamp",
+      "downloads": 1420,
+      "url": "https://www.curseforge.com/wow/addons/timestamp"
+    },
+    {
+      "name": "RepKeeper",
+      "slug": "repkeeper",
+      "downloads": 106,
+      "url": "https://www.curseforge.com/wow/addons/repkeeper"
+    },
+    {
+      "name": "AntiSocial",
+      "slug": "antisocial",
+      "downloads": 69,
+      "url": "https://www.curseforge.com/wow/addons/antisocial"
+    },
+    {
+      "name": "Hall of Fallen Heroes [WD]",
+      "slug": "hall-of-fallen-heroes-wd",
+      "downloads": 63,
+      "url": "https://www.curseforge.com/wow/addons/hall-of-fallen-heroes-wd"
+    }
   ]
 }
