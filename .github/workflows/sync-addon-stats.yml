@@ -2,7 +2,7 @@ name: Sync addon stats
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # daily at 06:00 UTC
+    - cron: '*/30 * * * *'   # every 30 minutes
   workflow_dispatch: {}    # allows manual runs from the Actions tab
 
 permissions:
