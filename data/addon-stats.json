@@ -1,24 +1,24 @@
 {
-  "total_downloads": 886144,
+  "total_downloads": 886204,
   "addon_count": 16,
-  "updated": "2026-09-03T12:05:23.175856+00:00",
+  "updated": "2026-09-03T15:05:32.599159+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 434521,
+      "downloads": 434540,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 232162,
+      "downloads": 232174,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 95420,
+      "downloads": 95423,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21301,
+      "downloads": 21310,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
@@ -42,19 +42,19 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 4675,
+      "downloads": 4678,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2534,
+      "downloads": 2540,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2147,
+      "downloads": 2148,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -66,13 +66,13 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 1839,
+      "downloads": 1844,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "AfkDelight",
       "slug": "afkdelight",
-      "downloads": 1590,
+      "downloads": 1591,
       "url": "https://www.curseforge.com/wow/addons/afkdelight"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 69,
+      "downloads": 70,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
