@@ -10,3 +10,4 @@ package-lock.json
 nginx.conf
 public/
 *.py
+.env
