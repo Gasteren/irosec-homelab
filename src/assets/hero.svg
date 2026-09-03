@@ -1,0 +1,29 @@
+<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <path d="M240 40 L400 100 V230 C400 330 330 400 240 440 C150 400 80 330 80 230 V100 Z"
+        fill="none" stroke="#334155" stroke-width="3"/>
+  <g stroke="#475569" stroke-width="2" fill="none">
+    <line x1="240" y1="150" x2="180" y2="220"/>
+    <line x1="240" y1="150" x2="300" y2="220"/>
+    <line x1="240" y1="150" x2="240" y2="230"/>
+    <line x1="180" y1="220" x2="150" y2="300"/>
+    <line x1="180" y1="220" x2="210" y2="300"/>
+    <line x1="300" y1="220" x2="270" y2="300"/>
+    <line x1="300" y1="220" x2="330" y2="300"/>
+    <line x1="240" y1="230" x2="240" y2="300"/>
+  </g>
+  <circle cx="240" cy="150" r="10" fill="url(#nodeGrad)"/>
+  <circle cx="180" cy="220" r="7" fill="#475569"/>
+  <circle cx="300" cy="220" r="7" fill="#475569"/>
+  <circle cx="240" cy="230" r="7" fill="#475569"/>
+  <circle cx="150" cy="300" r="6" fill="#334155"/>
+  <circle cx="210" cy="300" r="6" fill="#334155"/>
+  <circle cx="270" cy="300" r="6" fill="#334155"/>
+  <circle cx="330" cy="300" r="6" fill="#334155"/>
+  <circle cx="240" cy="300" r="6" fill="#334155"/>
+</svg>

@@ -1,0 +1,75 @@
+---
+title: "Network Topology"
+description: "This page documents the network layout of the irosec homelab including all Unifi hardware, IP addressing, and traffic..."
+sidebar:
+  order: 3
+---
+
+This page documents the network layout of the irosec homelab including all Unifi hardware, IP addressing, and traffic flow.
+
+---
+
+## Network Diagram
+
+[Diagram 1](https://img.irosec.com/u/XeanOW.jpg)
+[Diagram 2](https://img.irosec.com/u/xEMUiP.jpg)
+
+>Topology could not be imported due to image size.
+
+---
+
+## Unifi Hardware
+
+| Device | Type | Role |
+|---|---|---|
+| Dream Machine Pro | Gateway / Router | Core routing, firewall, IDS/IPS, Unifi controller |
+| USW Aggregation | Switch | Core aggregation switch (10 GbE SFP+) |
+| USW-16-PoE | Switch | PoE distribution switch |
+| USW Flex | Switch | Flexible edge switch |
+| U6 LR | Access Point | WiFi coverage - 2.4 GHz & 5 GHz |
+| U7 Lite | Access Point | WiFi coverage - 2.4 GHz & 5 GHz |
+| Unifi Protect Cameras | Protect Camera | Surveillance |
+| UNAS Pro | Network Storage | Dedicated storage server connected locally |
+
+---
+
+## VLANs & Segmentation
+
+All network segmentation is handled by the Dream Machine Pro across four VLANs. Addresses throughout this documentation are illustrative and do not reflect the production addressing scheme.
+
+| Name | VLAN ID | Subnet | Purpose |
+|---|---|---|---|
+| Server Network - JARVIS | 1 | 10.10.1.0/24 | Proxmox, VMs, self-hosted services |
+| Guest Network | 2 | 10.10.2.0/24 | Isolated guest WiFi access |
+| IoT Devices | 3 | 10.10.3.0/24 | Smart home devices, Home Assistant integrations |
+| Main Network - FRIDAY | 4 | 10.10.4.0/24 | Trusted client devices |
+
+Inter-VLAN firewall rules are documented in the [Firewall](/security-stack/firewall) page.
+
+---
+
+## Network Traffic Overview
+
+> ⚠️ **Note:** This is live production traffic, not a sandboxed instance. 
+> 📅 **Period:** February 10, 2026 – March 9, 2026
+
+---
+
+### Data Summary
+
+![Data Summary](https://img.irosec.com/u/FxIGwa.png)
+
+
+
+### Flow Summary
+
+![Flow Summary](https://img.irosec.com/u/DeTMql.png)
+
+---
+
+## Traffic Flow
+
+- All traffic is routed through the Dream Machine Pro
+- IDS/IPS inspection runs on the DMP for all WAN-bound traffic
+- Unifi Protect camera footage is stored locally and cloud for redundancy
+- Wireless coverage is split between U6 LR and U7 Lite for full home coverage
