@@ -1,24 +1,24 @@
 {
-  "total_downloads": 886419,
+  "total_downloads": 886427,
   "addon_count": 16,
-  "updated": "2026-09-04T16:33:10.872026+00:00",
+  "updated": "2026-09-04T16:40:10.071661+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 434614,
+      "downloads": 434618,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 232224,
+      "downloads": 232226,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 95460,
+      "downloads": 95461,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 4694,
+      "downloads": 4695,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
