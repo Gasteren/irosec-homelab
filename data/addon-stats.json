@@ -1,24 +1,24 @@
 {
-  "total_downloads": 886678,
+  "total_downloads": 886689,
   "addon_count": 16,
-  "updated": "2026-09-05T19:30:09.529464+00:00",
+  "updated": "2026-09-05T19:40:10.942120+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 434710,
+      "downloads": 434717,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 232283,
+      "downloads": 232284,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 95508,
+      "downloads": 95510,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -36,7 +36,7 @@
     {
       "name": "XInterruptBar",
       "slug": "interruptbar-v1",
-      "downloads": 18273,
+      "downloads": 18274,
       "url": "https://www.curseforge.com/wow/addons/interruptbar-v1"
     },
     {
