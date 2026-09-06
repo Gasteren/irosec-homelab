@@ -1,7 +1,7 @@
 {
-  "total_downloads": 886859,
+  "total_downloads": 886862,
   "addon_count": 16,
-  "updated": "2026-09-06T12:40:09.718168+00:00",
+  "updated": "2026-09-06T12:50:09.522954+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 95525,
+      "downloads": 95526,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -58,16 +58,16 @@
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
+      "name": "HandyNotes_ValTeleports",
+      "slug": "handynotes-valteleports",
+      "downloads": 1893,
+      "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
+    },
+    {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
       "downloads": 1893,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
-    },
-    {
-      "name": "HandyNotes_ValTeleports",
-      "slug": "handynotes-valteleports",
-      "downloads": 1891,
-      "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "AfkDelight",
