@@ -1,12 +1,12 @@
 {
-  "total_downloads": 886796,
+  "total_downloads": 886804,
   "addon_count": 16,
-  "updated": "2026-09-06T08:30:09.247730+00:00",
+  "updated": "2026-09-06T08:40:11.477305+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 434755,
+      "downloads": 434760,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 95521,
+      "downloads": 95522,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -48,13 +48,13 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2582,
+      "downloads": 2583,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2156,
+      "downloads": 2157,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
