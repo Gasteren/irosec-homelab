@@ -1,12 +1,12 @@
 {
-  "total_downloads": 887588,
+  "total_downloads": 887591,
   "addon_count": 16,
-  "updated": "2026-09-10T12:30:11.089768+00:00",
+  "updated": "2026-09-10T12:40:09.411825+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 435070,
+      "downloads": 435072,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -72,7 +72,7 @@
     {
       "name": "AfkDelight",
       "slug": "afkdelight",
-      "downloads": 1591,
+      "downloads": 1592,
       "url": "https://www.curseforge.com/wow/addons/afkdelight"
     },
     {
