@@ -1,18 +1,18 @@
 {
-  "total_downloads": 887763,
+  "total_downloads": 887772,
   "addon_count": 16,
-  "updated": "2026-09-11T08:30:12.320645+00:00",
+  "updated": "2026-09-11T08:40:09.711092+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 435127,
+      "downloads": 435129,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 232547,
+      "downloads": 232549,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21312,
+      "downloads": 21313,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
@@ -48,7 +48,7 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2663,
+      "downloads": 2665,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -60,7 +60,7 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 1965,
+      "downloads": 1966,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 70,
+      "downloads": 71,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
