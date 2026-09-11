@@ -1,24 +1,24 @@
 {
-  "total_downloads": 887746,
+  "total_downloads": 887754,
   "addon_count": 16,
-  "updated": "2026-09-11T05:35:42.691416+00:00",
+  "updated": "2026-09-11T05:40:10.433002+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 435120,
+      "downloads": 435124,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 232543,
+      "downloads": 232544,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 95645,
+      "downloads": 95648,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
