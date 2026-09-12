@@ -1,7 +1,7 @@
 {
-  "total_downloads": 887875,
+  "total_downloads": 887876,
   "addon_count": 16,
-  "updated": "2026-09-12T00:40:10.013490+00:00",
+  "updated": "2026-09-12T00:50:09.249439+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -60,7 +60,7 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 1970,
+      "downloads": 1971,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
