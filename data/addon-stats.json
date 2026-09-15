@@ -1,12 +1,12 @@
 {
-  "total_downloads": 889003,
+  "total_downloads": 889019,
   "addon_count": 16,
-  "updated": "2026-09-15T23:30:09.069435+00:00",
+  "updated": "2026-09-15T23:40:10.996471+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 435592,
+      "downloads": 435593,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 95809,
+      "downloads": 95810,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 4920,
+      "downloads": 4924,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2183,
+      "downloads": 2184,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -84,13 +84,13 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 109,
+      "downloads": 112,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 71,
+      "downloads": 77,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
