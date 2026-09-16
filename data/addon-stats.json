@@ -1,7 +1,7 @@
 {
-  "total_downloads": 889038,
+  "total_downloads": 889041,
   "addon_count": 16,
-  "updated": "2026-09-16T00:40:10.162965+00:00",
+  "updated": "2026-09-16T00:50:09.995748+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -60,7 +60,7 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2025,
+      "downloads": 2027,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 77,
+      "downloads": 78,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
