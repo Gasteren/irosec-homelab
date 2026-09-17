@@ -1,7 +1,7 @@
 {
-  "total_downloads": 889284,
+  "total_downloads": 889288,
   "addon_count": 16,
-  "updated": "2026-09-17T06:30:13.069549+00:00",
+  "updated": "2026-09-17T06:40:09.461710+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 95847,
+      "downloads": 95848,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 87,
+      "downloads": 90,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
