@@ -1,7 +1,7 @@
 {
-  "total_downloads": 890061,
+  "total_downloads": 890068,
   "addon_count": 16,
-  "updated": "2026-09-19T15:40:09.338298+00:00",
+  "updated": "2026-09-19T15:50:08.912110+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1910,
+      "downloads": 1914,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -78,7 +78,7 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1430,
+      "downloads": 1431,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 99,
+      "downloads": 101,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
