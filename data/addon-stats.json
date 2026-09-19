@@ -1,7 +1,7 @@
 {
-  "total_downloads": 890406,
+  "total_downloads": 890409,
   "addon_count": 16,
-  "updated": "2026-09-19T18:40:09.177694+00:00",
+  "updated": "2026-09-19T18:50:09.612678+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -78,7 +78,7 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1431,
+      "downloads": 1433,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 103,
+      "downloads": 104,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
