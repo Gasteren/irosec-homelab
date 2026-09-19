@@ -1,7 +1,7 @@
 {
-  "total_downloads": 889709,
+  "total_downloads": 889714,
   "addon_count": 16,
-  "updated": "2026-09-19T12:30:09.262805+00:00",
+  "updated": "2026-09-19T12:40:11.165084+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -24,13 +24,13 @@
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68198,
+      "downloads": 68199,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21315,
+      "downloads": 21318,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2191,
+      "downloads": 2192,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
