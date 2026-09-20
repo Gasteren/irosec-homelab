@@ -1,30 +1,30 @@
 {
-  "total_downloads": 891232,
+  "total_downloads": 891295,
   "addon_count": 16,
-  "updated": "2026-09-20T09:30:09.538228+00:00",
+  "updated": "2026-09-20T09:40:09.131438+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 435950,
+      "downloads": 435958,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233015,
+      "downloads": 233025,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 96841,
+      "downloads": 96871,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68269,
+      "downloads": 68272,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -36,7 +36,7 @@
     {
       "name": "XInterruptBar",
       "slug": "interruptbar-v1",
-      "downloads": 18281,
+      "downloads": 18282,
       "url": "https://www.curseforge.com/wow/addons/interruptbar-v1"
     },
     {
@@ -48,19 +48,19 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2790,
+      "downloads": 2794,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2283,
+      "downloads": 2285,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2078,
+      "downloads": 2082,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 136,
+      "downloads": 137,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
