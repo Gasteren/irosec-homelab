@@ -1,7 +1,7 @@
 {
-  "total_downloads": 890997,
+  "total_downloads": 891000,
   "addon_count": 16,
-  "updated": "2026-09-20T02:40:12.264531+00:00",
+  "updated": "2026-09-20T02:50:09.137655+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2262,
+      "downloads": 2264,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1931,
+      "downloads": 1932,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
