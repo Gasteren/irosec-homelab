@@ -1,12 +1,12 @@
 {
-  "total_downloads": 891877,
+  "total_downloads": 891898,
   "addon_count": 16,
-  "updated": "2026-09-20T23:30:09.316966+00:00",
+  "updated": "2026-09-20T23:40:10.121433+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436025,
+      "downloads": 436027,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,13 +18,13 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 97197,
+      "downloads": 97211,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68294,
+      "downloads": 68295,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5167,
+      "downloads": 5169,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -72,7 +72,7 @@
     {
       "name": "AfkDelight",
       "slug": "afkdelight",
-      "downloads": 1593,
+      "downloads": 1594,
       "url": "https://www.curseforge.com/wow/addons/afkdelight"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 140,
+      "downloads": 141,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
