@@ -1,12 +1,12 @@
 {
-  "total_downloads": 892432,
+  "total_downloads": 892436,
   "addon_count": 16,
-  "updated": "2026-09-21T23:30:12.863107+00:00",
+  "updated": "2026-09-21T23:40:10.845115+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436105,
+      "downloads": 436106,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -36,13 +36,13 @@
     {
       "name": "XInterruptBar",
       "slug": "interruptbar-v1",
-      "downloads": 18282,
+      "downloads": 18283,
       "url": "https://www.curseforge.com/wow/addons/interruptbar-v1"
     },
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5188,
+      "downloads": 5189,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2372,
+      "downloads": 2373,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
