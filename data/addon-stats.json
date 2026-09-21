@@ -1,18 +1,18 @@
 {
-  "total_downloads": 892301,
+  "total_downloads": 892314,
   "addon_count": 16,
-  "updated": "2026-09-21T18:30:10.472043+00:00",
+  "updated": "2026-09-21T18:40:12.855127+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436087,
+      "downloads": 436090,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233098,
+      "downloads": 233099,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -24,13 +24,13 @@
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68320,
+      "downloads": 68323,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21320,
+      "downloads": 21321,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2360,
+      "downloads": 2364,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -78,7 +78,7 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1444,
+      "downloads": 1445,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
