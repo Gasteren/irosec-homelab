@@ -1,7 +1,7 @@
 {
-  "total_downloads": 892820,
+  "total_downloads": 892822,
   "addon_count": 16,
-  "updated": "2026-09-22T23:40:11.164191+00:00",
+  "updated": "2026-09-22T23:50:11.335384+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -24,7 +24,7 @@
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68339,
+      "downloads": 68341,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
