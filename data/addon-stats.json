@@ -1,12 +1,12 @@
 {
-  "total_downloads": 892841,
+  "total_downloads": 892852,
   "addon_count": 16,
-  "updated": "2026-09-23T01:30:09.173647+00:00",
+  "updated": "2026-09-23T01:40:11.262695+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436172,
+      "downloads": 436176,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -36,7 +36,7 @@
     {
       "name": "XInterruptBar",
       "slug": "interruptbar-v1",
-      "downloads": 18285,
+      "downloads": 18286,
       "url": "https://www.curseforge.com/wow/addons/interruptbar-v1"
     },
     {
@@ -48,7 +48,7 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2833,
+      "downloads": 2836,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -60,7 +60,7 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2119,
+      "downloads": 2122,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
