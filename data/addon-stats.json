@@ -1,7 +1,7 @@
 {
-  "total_downloads": 893044,
+  "total_downloads": 893052,
   "addon_count": 16,
-  "updated": "2026-09-23T18:30:10.161389+00:00",
+  "updated": "2026-09-23T18:40:11.495504+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -12,7 +12,7 @@
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233169,
+      "downloads": 233172,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -24,7 +24,7 @@
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68348,
+      "downloads": 68350,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5210,
+      "downloads": 5211,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2408,
+      "downloads": 2410,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
