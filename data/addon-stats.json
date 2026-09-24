@@ -1,18 +1,18 @@
 {
-  "total_downloads": 893426,
+  "total_downloads": 893436,
   "addon_count": 16,
-  "updated": "2026-09-24T21:30:10.671313+00:00",
+  "updated": "2026-09-24T21:39:55.692973+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436293,
+      "downloads": 436295,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233219,
+      "downloads": 233222,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -24,7 +24,7 @@
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68367,
+      "downloads": 68368,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5223,
+      "downloads": 5224,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -60,13 +60,13 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2142,
+      "downloads": 2143,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1955,
+      "downloads": 1956,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 149,
+      "downloads": 150,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
