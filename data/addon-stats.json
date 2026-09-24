@@ -1,12 +1,12 @@
 {
-  "total_downloads": 893263,
+  "total_downloads": 893272,
   "addon_count": 16,
-  "updated": "2026-09-24T10:30:13.635261+00:00",
+  "updated": "2026-09-24T10:40:09.415880+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436258,
+      "downloads": 436260,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,13 +18,13 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 97889,
+      "downloads": 97892,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68357,
+      "downloads": 68358,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -54,13 +54,13 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2422,
+      "downloads": 2423,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2138,
+      "downloads": 2140,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
