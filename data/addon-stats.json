@@ -1,18 +1,18 @@
 {
-  "total_downloads": 893951,
+  "total_downloads": 893958,
   "addon_count": 16,
-  "updated": "2026-09-25T09:30:09.490261+00:00",
+  "updated": "2026-09-25T09:40:11.864579+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436328,
+      "downloads": 436330,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233242,
+      "downloads": 233244,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2440,
+      "downloads": 2441,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1956,
+      "downloads": 1957,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 122,
+      "downloads": 123,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
