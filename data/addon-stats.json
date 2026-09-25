@@ -1,7 +1,7 @@
 {
-  "total_downloads": 894152,
+  "total_downloads": 894153,
   "addon_count": 16,
-  "updated": "2026-09-25T13:40:14.777005+00:00",
+  "updated": "2026-09-25T13:50:11.056244+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2442,
+      "downloads": 2443,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
