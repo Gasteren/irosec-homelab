@@ -1,7 +1,7 @@
 {
-  "total_downloads": 895640,
+  "total_downloads": 895643,
   "addon_count": 16,
-  "updated": "2026-09-28T06:30:13.932528+00:00",
+  "updated": "2026-09-28T06:40:13.535583+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -12,7 +12,7 @@
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233371,
+      "downloads": 233372,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21322,
+      "downloads": 21324,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
