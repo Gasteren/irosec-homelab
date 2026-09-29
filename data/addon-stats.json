@@ -1,12 +1,12 @@
 {
-  "total_downloads": 896082,
+  "total_downloads": 896092,
   "addon_count": 16,
-  "updated": "2026-09-29T18:30:10.008460+00:00",
+  "updated": "2026-09-29T18:40:30.993385+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436645,
+      "downloads": 436647,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 99715,
+      "downloads": 99721,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -48,7 +48,7 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2933,
+      "downloads": 2934,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -60,7 +60,7 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2208,
+      "downloads": 2209,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
