@@ -1,18 +1,18 @@
 {
-  "total_downloads": 895925,
+  "total_downloads": 895940,
   "addon_count": 16,
-  "updated": "2026-09-29T04:30:11.141630+00:00",
+  "updated": "2026-09-29T04:40:10.825186+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436609,
+      "downloads": 436616,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233413,
+      "downloads": 233418,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -48,7 +48,7 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2919,
+      "downloads": 2922,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
