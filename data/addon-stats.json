@@ -1,12 +1,12 @@
 {
-  "total_downloads": 896174,
+  "total_downloads": 896177,
   "addon_count": 16,
-  "updated": "2026-09-30T03:30:09.709721+00:00",
+  "updated": "2026-09-30T03:40:11.866709+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436662,
+      "downloads": 436663,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 99763,
+      "downloads": 99764,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1972,
+      "downloads": 1973,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
