@@ -1,12 +1,12 @@
 {
-  "total_downloads": 896280,
+  "total_downloads": 896292,
   "addon_count": 16,
-  "updated": "2026-09-30T17:30:12.523668+00:00",
+  "updated": "2026-09-30T17:40:12.911667+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436687,
+      "downloads": 436689,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 99805,
+      "downloads": 99810,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -48,25 +48,25 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2940,
+      "downloads": 2941,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2514,
+      "downloads": 2515,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2214,
+      "downloads": 2215,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1974,
+      "downloads": 1975,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 176,
+      "downloads": 177,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
