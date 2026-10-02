@@ -1,18 +1,18 @@
 {
-  "total_downloads": 896987,
+  "total_downloads": 896995,
   "addon_count": 16,
-  "updated": "2026-10-02T23:30:09.843341+00:00",
+  "updated": "2026-10-02T23:40:11.263795+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436824,
+      "downloads": 436826,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233517,
+      "downloads": 233518,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -42,13 +42,13 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5385,
+      "downloads": 5388,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2964,
+      "downloads": 2965,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 191,
+      "downloads": 192,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
