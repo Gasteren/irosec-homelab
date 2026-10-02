@@ -1,24 +1,24 @@
 {
-  "total_downloads": 896677,
+  "total_downloads": 896698,
   "addon_count": 16,
-  "updated": "2026-10-02T03:30:10.950432+00:00",
+  "updated": "2026-10-02T03:40:08.852544+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436779,
+      "downloads": 436784,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233491,
+      "downloads": 233492,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 99940,
+      "downloads": 99945,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -42,13 +42,13 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5287,
+      "downloads": 5293,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2952,
+      "downloads": 2953,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1992,
+      "downloads": 1994,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 185,
+      "downloads": 186,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
