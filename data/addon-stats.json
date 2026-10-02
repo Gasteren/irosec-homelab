@@ -1,18 +1,18 @@
 {
-  "total_downloads": 896577,
+  "total_downloads": 896586,
   "addon_count": 16,
-  "updated": "2026-10-02T00:30:09.736709+00:00",
+  "updated": "2026-10-02T00:40:13.257949+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436771,
+      "downloads": 436775,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233489,
+      "downloads": 233490,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5256,
+      "downloads": 5257,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -84,13 +84,13 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 178,
+      "downloads": 179,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 129,
+      "downloads": 131,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
