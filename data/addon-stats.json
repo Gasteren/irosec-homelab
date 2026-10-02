@@ -1,24 +1,24 @@
 {
-  "total_downloads": 896649,
+  "total_downloads": 896677,
   "addon_count": 16,
-  "updated": "2026-10-02T02:30:12.555237+00:00",
+  "updated": "2026-10-02T02:40:11.850118+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436778,
+      "downloads": 436779,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233490,
+      "downloads": 233491,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 99936,
+      "downloads": 99940,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5279,
+      "downloads": 5287,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2528,
+      "downloads": 2529,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1987,
+      "downloads": 1992,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -78,19 +78,19 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1467,
+      "downloads": 1471,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 184,
+      "downloads": 185,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 137,
+      "downloads": 140,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
