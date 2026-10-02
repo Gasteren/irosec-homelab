@@ -1,12 +1,12 @@
 {
-  "total_downloads": 896590,
+  "total_downloads": 896644,
   "addon_count": 16,
-  "updated": "2026-10-02T01:30:09.340563+00:00",
+  "updated": "2026-10-02T01:40:12.323124+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436775,
+      "downloads": 436778,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5257,
+      "downloads": 5279,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 1976,
+      "downloads": 1987,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -78,19 +78,19 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1460,
+      "downloads": 1467,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 179,
+      "downloads": 184,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 131,
+      "downloads": 137,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
