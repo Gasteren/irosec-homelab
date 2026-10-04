@@ -1,12 +1,12 @@
 {
-  "total_downloads": 897537,
+  "total_downloads": 897543,
   "addon_count": 16,
-  "updated": "2026-10-04T23:30:10.351304+00:00",
+  "updated": "2026-10-04T23:40:10.272134+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436975,
+      "downloads": 436976,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 100134,
+      "downloads": 100138,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21325,
+      "downloads": 21326,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
