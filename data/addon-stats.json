@@ -1,24 +1,24 @@
 {
-  "total_downloads": 897467,
+  "total_downloads": 897475,
   "addon_count": 16,
-  "updated": "2026-10-04T17:30:10.385409+00:00",
+  "updated": "2026-10-04T17:40:10.113754+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 436952,
+      "downloads": 436955,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233581,
+      "downloads": 233582,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 100116,
+      "downloads": 100118,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5432,
+      "downloads": 5433,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2028,
+      "downloads": 2029,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
