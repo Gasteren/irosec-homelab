@@ -1,7 +1,7 @@
 {
-  "total_downloads": 897441,
+  "total_downloads": 897444,
   "addon_count": 16,
-  "updated": "2026-10-04T15:30:12.104856+00:00",
+  "updated": "2026-10-04T15:40:08.856351+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5430,
+      "downloads": 5431,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2571,
+      "downloads": 2573,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
