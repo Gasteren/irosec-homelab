@@ -1,12 +1,12 @@
 {
-  "total_downloads": 897634,
+  "total_downloads": 897641,
   "addon_count": 16,
-  "updated": "2026-10-05T15:30:12.642408+00:00",
+  "updated": "2026-10-05T15:40:13.740863+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 437001,
+      "downloads": 437002,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 100167,
+      "downloads": 100169,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -42,13 +42,13 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5449,
+      "downloads": 5450,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 2993,
+      "downloads": 2994,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 153,
+      "downloads": 155,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
