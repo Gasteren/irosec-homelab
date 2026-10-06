@@ -1,12 +1,12 @@
 {
-  "total_downloads": 897773,
+  "total_downloads": 897776,
   "addon_count": 16,
-  "updated": "2026-10-06T12:30:13.216962+00:00",
+  "updated": "2026-10-06T12:40:13.644715+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 437030,
+      "downloads": 437031,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2583,
+      "downloads": 2584,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -78,7 +78,7 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1484,
+      "downloads": 1485,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
