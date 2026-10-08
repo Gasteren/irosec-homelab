@@ -1,7 +1,7 @@
 {
-  "total_downloads": 898017,
+  "total_downloads": 898021,
   "addon_count": 16,
-  "updated": "2026-10-08T00:30:10.612599+00:00",
+  "updated": "2026-10-08T00:40:11.472514+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -18,13 +18,13 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 100276,
+      "downloads": 100278,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68445,
+      "downloads": 68446,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5470,
+      "downloads": 5471,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
