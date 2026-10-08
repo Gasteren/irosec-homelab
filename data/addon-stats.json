@@ -1,12 +1,12 @@
 {
-  "total_downloads": 898054,
+  "total_downloads": 898058,
   "addon_count": 16,
-  "updated": "2026-10-08T06:30:09.892058+00:00",
+  "updated": "2026-10-08T06:40:10.825168+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 437099,
+      "downloads": 437102,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2042,
+      "downloads": 2043,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
