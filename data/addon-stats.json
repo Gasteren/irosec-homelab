@@ -1,12 +1,12 @@
 {
-  "total_downloads": 898032,
+  "total_downloads": 898038,
   "addon_count": 16,
-  "updated": "2026-10-08T02:30:13.479881+00:00",
+  "updated": "2026-10-08T02:40:09.273210+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 437095,
+      "downloads": 437096,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -42,19 +42,19 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5472,
+      "downloads": 5473,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 3022,
+      "downloads": 3023,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2589,
+      "downloads": 2590,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -78,13 +78,13 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1486,
+      "downloads": 1487,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 204,
+      "downloads": 205,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
