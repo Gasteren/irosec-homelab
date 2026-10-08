@@ -1,18 +1,18 @@
 {
-  "total_downloads": 898038,
+  "total_downloads": 898047,
   "addon_count": 16,
-  "updated": "2026-10-08T03:30:10.865323+00:00",
+  "updated": "2026-10-08T03:40:09.736892+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 437096,
+      "downloads": 437098,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233670,
+      "downloads": 233673,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -48,7 +48,7 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 3023,
+      "downloads": 3024,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -60,7 +60,7 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2290,
+      "downloads": 2291,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -84,13 +84,13 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 205,
+      "downloads": 206,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 158,
+      "downloads": 159,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
