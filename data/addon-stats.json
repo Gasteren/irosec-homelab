@@ -1,18 +1,18 @@
 {
-  "total_downloads": 898336,
+  "total_downloads": 898348,
   "addon_count": 16,
-  "updated": "2026-10-09T19:30:10.822938+00:00",
+  "updated": "2026-10-09T19:40:10.674132+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 437165,
+      "downloads": 437169,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233710,
+      "downloads": 233713,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5544,
+      "downloads": 5549,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
