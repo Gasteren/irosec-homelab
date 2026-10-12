@@ -1,30 +1,30 @@
 {
-  "total_downloads": 899009,
+  "total_downloads": 899019,
   "addon_count": 16,
-  "updated": "2026-10-12T21:30:14.184135+00:00",
+  "updated": "2026-10-12T21:40:10.004819+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 437333,
+      "downloads": 437335,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233811,
+      "downloads": 233813,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 100467,
+      "downloads": 100471,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68477,
+      "downloads": 68478,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -48,7 +48,7 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 3076,
+      "downloads": 3077,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
