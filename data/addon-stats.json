@@ -1,12 +1,12 @@
 {
-  "total_downloads": 901927,
+  "total_downloads": 902450,
   "addon_count": 16,
-  "updated": "2026-10-14T18:40:11.243589+00:00",
+  "updated": "2026-10-14T18:50:12.119725+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 438359,
+      "downloads": 438736,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,13 +18,13 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 100850,
+      "downloads": 100933,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68515,
+      "downloads": 68524,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -60,7 +60,7 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2499,
+      "downloads": 2551,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -96,7 +96,7 @@
     {
       "name": "Hall of Fallen Heroes [WD]",
       "slug": "hall-of-fallen-heroes-wd",
-      "downloads": 70,
+      "downloads": 72,
       "url": "https://www.curseforge.com/wow/addons/hall-of-fallen-heroes-wd"
     }
   ]
