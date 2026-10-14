@@ -1,12 +1,12 @@
 {
-  "total_downloads": 904328,
+  "total_downloads": 904531,
   "addon_count": 16,
-  "updated": "2026-10-14T22:40:11.531747+00:00",
+  "updated": "2026-10-14T22:50:14.034722+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 439449,
+      "downloads": 439652,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
