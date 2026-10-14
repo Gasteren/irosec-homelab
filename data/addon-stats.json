@@ -1,7 +1,7 @@
 {
-  "total_downloads": 904062,
+  "total_downloads": 904328,
   "addon_count": 16,
-  "updated": "2026-10-14T22:30:12.232691+00:00",
+  "updated": "2026-10-14T22:40:11.531747+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -12,19 +12,19 @@
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 235001,
+      "downloads": 235111,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 101149,
+      "downloads": 101208,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68532,
+      "downloads": 68533,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -42,25 +42,25 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5791,
+      "downloads": 5796,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 3489,
+      "downloads": 3533,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2711,
+      "downloads": 2716,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2640,
+      "downloads": 2679,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -78,7 +78,7 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1499,
+      "downloads": 1502,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
