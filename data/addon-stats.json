@@ -1,7 +1,7 @@
 {
-  "total_downloads": 899406,
+  "total_downloads": 899422,
   "addon_count": 16,
-  "updated": "2026-10-14T15:30:14.077763+00:00",
+  "updated": "2026-10-14T15:40:11.389355+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -12,19 +12,19 @@
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 233876,
+      "downloads": 233877,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 100567,
+      "downloads": 100571,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68488,
+      "downloads": 68489,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -42,25 +42,25 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5711,
+      "downloads": 5712,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 3108,
+      "downloads": 3111,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2633,
+      "downloads": 2635,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2365,
+      "downloads": 2368,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -96,7 +96,7 @@
     {
       "name": "Hall of Fallen Heroes [WD]",
       "slug": "hall-of-fallen-heroes-wd",
-      "downloads": 64,
+      "downloads": 65,
       "url": "https://www.curseforge.com/wow/addons/hall-of-fallen-heroes-wd"
     }
   ]
