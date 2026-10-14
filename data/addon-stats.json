@@ -1,12 +1,12 @@
 {
-  "total_downloads": 899427,
+  "total_downloads": 900088,
   "addon_count": 16,
-  "updated": "2026-10-14T16:30:11.978737+00:00",
+  "updated": "2026-10-14T16:40:16.229952+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 437438,
+      "downloads": 437888,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 100571,
+      "downloads": 100726,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5712,
+      "downloads": 5727,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -54,7 +54,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2635,
+      "downloads": 2653,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2066,
+      "downloads": 2074,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -78,25 +78,25 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1489,
+      "downloads": 1493,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 211,
+      "downloads": 213,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 170,
+      "downloads": 177,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
       "name": "Hall of Fallen Heroes [WD]",
       "slug": "hall-of-fallen-heroes-wd",
-      "downloads": 65,
+      "downloads": 67,
       "url": "https://www.curseforge.com/wow/addons/hall-of-fallen-heroes-wd"
     }
   ]
