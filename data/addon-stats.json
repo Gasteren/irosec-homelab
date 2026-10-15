@@ -1,18 +1,18 @@
 {
-  "total_downloads": 905740,
+  "total_downloads": 905957,
   "addon_count": 16,
-  "updated": "2026-10-15T02:30:10.237379+00:00",
+  "updated": "2026-10-15T02:40:10.380847+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 440175,
+      "downloads": 440279,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 235407,
+      "downloads": 235463,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -24,25 +24,25 @@
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68546,
+      "downloads": 68549,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21335,
+      "downloads": 21337,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
       "name": "XInterruptBar",
       "slug": "interruptbar-v1",
-      "downloads": 18295,
+      "downloads": 18299,
       "url": "https://www.curseforge.com/wow/addons/interruptbar-v1"
     },
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5822,
+      "downloads": 5828,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
@@ -54,49 +54,49 @@
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2754,
+      "downloads": 2770,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2728,
+      "downloads": 2736,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2097,
+      "downloads": 2100,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
       "name": "AfkDelight",
       "slug": "afkdelight",
-      "downloads": 1595,
+      "downloads": 1597,
       "url": "https://www.curseforge.com/wow/addons/afkdelight"
     },
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1504,
+      "downloads": 1507,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 226,
+      "downloads": 229,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 194,
+      "downloads": 198,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
       "name": "Hall of Fallen Heroes [WD]",
       "slug": "hall-of-fallen-heroes-wd",
-      "downloads": 73,
+      "downloads": 76,
       "url": "https://www.curseforge.com/wow/addons/hall-of-fallen-heroes-wd"
     }
   ]
