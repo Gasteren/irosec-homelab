@@ -1,7 +1,7 @@
 {
-  "total_downloads": 912637,
+  "total_downloads": 912638,
   "addon_count": 16,
-  "updated": "2026-10-16T19:40:11.295121+00:00",
+  "updated": "2026-10-16T19:50:09.332201+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 220,
+      "downloads": 221,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
