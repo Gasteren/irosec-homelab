@@ -1,30 +1,30 @@
 {
-  "total_downloads": 911532,
+  "total_downloads": 911667,
   "addon_count": 16,
-  "updated": "2026-10-16T11:30:09.753066+00:00",
+  "updated": "2026-10-16T11:40:11.031454+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 442556,
+      "downloads": 442605,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 236694,
+      "downloads": 236724,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 102408,
+      "downloads": 102439,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68633,
+      "downloads": 68635,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -42,31 +42,31 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5975,
+      "downloads": 5985,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 3961,
+      "downloads": 3965,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 3025,
+      "downloads": 3028,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2834,
+      "downloads": 2838,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2137,
+      "downloads": 2138,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 217,
+      "downloads": 218,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
