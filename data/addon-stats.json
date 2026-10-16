@@ -1,7 +1,7 @@
 {
-  "total_downloads": 911882,
+  "total_downloads": 911960,
   "addon_count": 16,
-  "updated": "2026-10-16T14:30:11.329806+00:00",
+  "updated": "2026-10-16T14:40:11.532296+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -12,19 +12,19 @@
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 236761,
+      "downloads": 236778,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 102497,
+      "downloads": 102537,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68640,
+      "downloads": 68644,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -42,31 +42,31 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5995,
+      "downloads": 6001,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 3976,
+      "downloads": 3979,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 3036,
+      "downloads": 3038,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2844,
+      "downloads": 2848,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2143,
+      "downloads": 2145,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
