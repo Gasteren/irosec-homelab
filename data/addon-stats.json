@@ -1,18 +1,18 @@
 {
-  "total_downloads": 910461,
+  "total_downloads": 910573,
   "addon_count": 16,
-  "updated": "2026-10-16T01:30:10.781806+00:00",
+  "updated": "2026-10-16T01:40:10.515786+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 442274,
+      "downloads": 442324,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 236521,
+      "downloads": 236548,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -42,31 +42,31 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 5927,
+      "downloads": 5933,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 3921,
+      "downloads": 3928,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 2991,
+      "downloads": 2997,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2794,
+      "downloads": 2803,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2118,
+      "downloads": 2122,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
@@ -78,13 +78,13 @@
     {
       "name": "TimeStamp",
       "slug": "timestamp",
-      "downloads": 1520,
+      "downloads": 1522,
       "url": "https://www.curseforge.com/wow/addons/timestamp"
     },
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 241,
+      "downloads": 242,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
