@@ -1,24 +1,24 @@
 {
-  "total_downloads": 913543,
+  "total_downloads": 913611,
   "addon_count": 16,
-  "updated": "2026-10-17T08:30:10.502017+00:00",
+  "updated": "2026-10-17T08:40:08.613390+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 443275,
+      "downloads": 443299,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 237087,
+      "downloads": 237103,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 102952,
+      "downloads": 102965,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21341,
+      "downloads": 21342,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
@@ -42,19 +42,19 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 6046,
+      "downloads": 6048,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 4040,
+      "downloads": 4045,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 3089,
+      "downloads": 3094,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -66,13 +66,13 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2152,
+      "downloads": 2153,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
       "name": "AfkDelight",
       "slug": "afkdelight",
-      "downloads": 1599,
+      "downloads": 1600,
       "url": "https://www.curseforge.com/wow/addons/afkdelight"
     },
     {
