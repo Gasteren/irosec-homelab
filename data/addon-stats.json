@@ -1,7 +1,7 @@
 {
-  "total_downloads": 913780,
+  "total_downloads": 913784,
   "addon_count": 16,
-  "updated": "2026-10-17T11:40:10.749116+00:00",
+  "updated": "2026-10-17T11:50:09.659444+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -48,7 +48,7 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 4049,
+      "downloads": 4051,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2153,
+      "downloads": 2155,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
