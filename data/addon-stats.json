@@ -1,7 +1,7 @@
 {
-  "total_downloads": 913465,
+  "total_downloads": 913472,
   "addon_count": 16,
-  "updated": "2026-10-17T06:40:09.385100+00:00",
+  "updated": "2026-10-17T06:50:10.497456+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -18,7 +18,7 @@
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 102936,
+      "downloads": 102943,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
