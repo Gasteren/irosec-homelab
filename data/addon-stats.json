@@ -1,24 +1,24 @@
 {
-  "total_downloads": 914823,
+  "total_downloads": 914853,
   "addon_count": 16,
-  "updated": "2026-10-18T05:30:11.243665+00:00",
+  "updated": "2026-10-18T05:40:09.624692+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 443794,
+      "downloads": 443806,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 237378,
+      "downloads": 237384,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
       "name": "BetterBags - Fishing",
       "slug": "betterbags-fishing",
-      "downloads": 103174,
+      "downloads": 103176,
       "url": "https://www.curseforge.com/wow/addons/betterbags-fishing"
     },
     {
@@ -30,7 +30,7 @@
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21346,
+      "downloads": 21347,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
@@ -48,25 +48,25 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 4111,
+      "downloads": 4114,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 3153,
+      "downloads": 3155,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2919,
+      "downloads": 2922,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
       "name": "LoZN64 | Legend of Zelda LevelUp!",
       "slug": "lozn64-levelup",
-      "downloads": 2162,
+      "downloads": 2163,
       "url": "https://www.curseforge.com/wow/addons/lozn64-levelup"
     },
     {
