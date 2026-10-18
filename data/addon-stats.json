@@ -1,12 +1,12 @@
 {
-  "total_downloads": 915247,
+  "total_downloads": 915283,
   "addon_count": 16,
-  "updated": "2026-10-18T14:30:08.158423+00:00",
+  "updated": "2026-10-18T14:40:10.913835+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 443977,
+      "downloads": 444006,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
@@ -24,7 +24,7 @@
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68703,
+      "downloads": 68704,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
@@ -48,19 +48,19 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 4137,
+      "downloads": 4138,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 3174,
+      "downloads": 3175,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2929,
+      "downloads": 2931,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -96,7 +96,7 @@
     {
       "name": "Hall of Fallen Heroes [WD]",
       "slug": "hall-of-fallen-heroes-wd",
-      "downloads": 78,
+      "downloads": 80,
       "url": "https://www.curseforge.com/wow/addons/hall-of-fallen-heroes-wd"
     }
   ]
