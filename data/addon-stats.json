@@ -1,7 +1,7 @@
 {
-  "total_downloads": 916392,
+  "total_downloads": 916398,
   "addon_count": 16,
-  "updated": "2026-10-19T17:40:10.757421+00:00",
+  "updated": "2026-10-19T17:50:09.704405+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -48,7 +48,7 @@
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 4200,
+      "downloads": 4205,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
@@ -60,7 +60,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2960,
+      "downloads": 2961,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
