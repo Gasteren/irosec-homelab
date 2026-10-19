@@ -1,7 +1,7 @@
 {
-  "total_downloads": 915979,
+  "total_downloads": 915980,
   "addon_count": 16,
-  "updated": "2026-10-19T05:41:01.477545+00:00",
+  "updated": "2026-10-19T05:50:11.680255+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -84,7 +84,7 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 262,
+      "downloads": 263,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
