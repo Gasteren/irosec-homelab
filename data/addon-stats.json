@@ -1,7 +1,7 @@
 {
-  "total_downloads": 915978,
+  "total_downloads": 915979,
   "addon_count": 16,
-  "updated": "2026-10-19T05:40:11.648488+00:00",
+  "updated": "2026-10-19T05:41:01.477545+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
@@ -60,7 +60,7 @@
     {
       "name": "Level Time Tracker",
       "slug": "leveltimetracker",
-      "downloads": 2943,
+      "downloads": 2945,
       "url": "https://www.curseforge.com/wow/addons/leveltimetracker"
     },
     {
@@ -84,7 +84,7 @@
     {
       "name": "RepKeeper",
       "slug": "repkeeper",
-      "downloads": 263,
+      "downloads": 262,
       "url": "https://www.curseforge.com/wow/addons/repkeeper"
     },
     {
