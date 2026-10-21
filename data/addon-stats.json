@@ -1,18 +1,18 @@
 {
-  "total_downloads": 917851,
+  "total_downloads": 917877,
   "addon_count": 16,
-  "updated": "2026-10-21T22:30:10.737633+00:00",
+  "updated": "2026-10-21T22:40:11.580994+00:00",
   "addons": [
     {
       "name": "HandyNotes_AncientShrines",
       "slug": "handynotes-ancientshrines",
-      "downloads": 445063,
+      "downloads": 445073,
       "url": "https://www.curseforge.com/wow/addons/handynotes-ancientshrines"
     },
     {
       "name": "Handynotes_Jetpacks",
       "slug": "handynotes-jetpacks",
-      "downloads": 238077,
+      "downloads": 238084,
       "url": "https://www.curseforge.com/wow/addons/handynotes-jetpacks"
     },
     {
@@ -24,13 +24,13 @@
     {
       "name": "Adibags_Fishing",
       "slug": "adibags-fishing",
-      "downloads": 68743,
+      "downloads": 68744,
       "url": "https://www.curseforge.com/wow/addons/adibags-fishing"
     },
     {
       "name": "Interrupted v5",
       "slug": "interrupted-x",
-      "downloads": 21352,
+      "downloads": 21354,
       "url": "https://www.curseforge.com/wow/addons/interrupted-x"
     },
     {
@@ -42,19 +42,19 @@
     {
       "name": "Twitch Drops Watcher",
       "slug": "twitch-drops-watcher",
-      "downloads": 6126,
+      "downloads": 6128,
       "url": "https://www.curseforge.com/wow/addons/twitch-drops-watcher"
     },
     {
       "name": "HandyNotes_NaigtalTeleports",
       "slug": "handynotes-naigtalteleports",
-      "downloads": 4281,
+      "downloads": 4282,
       "url": "https://www.curseforge.com/wow/addons/handynotes-naigtalteleports"
     },
     {
       "name": "HandyNotes_ValTeleports",
       "slug": "handynotes-valteleports",
-      "downloads": 3297,
+      "downloads": 3298,
       "url": "https://www.curseforge.com/wow/addons/handynotes-valteleports"
     },
     {
@@ -72,7 +72,7 @@
     {
       "name": "AfkDelight",
       "slug": "afkdelight",
-      "downloads": 1600,
+      "downloads": 1601,
       "url": "https://www.curseforge.com/wow/addons/afkdelight"
     },
     {
@@ -90,7 +90,7 @@
     {
       "name": "AntiSocial",
       "slug": "antisocial",
-      "downloads": 243,
+      "downloads": 244,
       "url": "https://www.curseforge.com/wow/addons/antisocial"
     },
     {
