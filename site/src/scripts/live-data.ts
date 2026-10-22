@@ -2,11 +2,10 @@
  * Keeps addon download numbers and the Recent activity feed current without
  * rebuilding the site.
  *
- * data/*.json in the repo is refreshed every 10 minutes by the
- * sync-addon-stats workflow (dispatched by a cron job on the Docker host), and
- * nginx serves the latest copy at /api/*.json (see nginx.conf.template). Live
- * elements are rendered with the values from the last build, so when a fetch
- * fails the page keeps showing those.
+ * The fetcher service on the Docker host (site/fetcher/) refreshes the data
+ * just after every 10-minute mark, and nginx serves it at /api/*.json (see
+ * site/nginx.conf). Live elements are rendered with the values from the last
+ * build, so when a fetch fails the page keeps showing those.
  *
  * Markup hooks:
  *   [data-live="total-downloads"], [data-live="addon-count"]  numbers
@@ -38,10 +37,10 @@ interface Commit {
 const STATS_URL = '/api/addon-stats.json';
 const ACTIVITY_URL = '/api/recent-activity.json';
 
-const SYNC_EVERY = 10 * 60_000; // the cron job dispatches a sync at every 10th minute
-const SYNC_DELAY = 30_000; // the workflow needs a moment to commit new data
-const SYNC_GRACE = 8 * 60_000; // GitHub's raw CDN can take a few minutes to catch up
-const RETRY_EVERY = 45_000; // poll interval while new data is expected
+const SYNC_EVERY = 10 * 60_000; // the fetcher runs just after every 10th minute
+const SYNC_DELAY = 10_000; // give it a few seconds to fetch and write
+const SYNC_GRACE = 3 * 60_000; // keep checking this long for a slow or retried fetch
+const RETRY_EVERY = 20_000; // poll interval while new data is expected
 const IDLE_REFRESH = 5 * 60_000; // occasional check outside sync windows
 const ACTIVITY_LIMIT = 20;
 
