@@ -10,3 +10,4 @@ site/src/content/docs/projects/
 site/src/content/docs/lessons-learned/
 site/src/content/docs/addons/
 site/src/data/
+__pycache__/
