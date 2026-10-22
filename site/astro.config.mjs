@@ -6,15 +6,14 @@ import mdx from '@astrojs/mdx';
 
 export default defineConfig({
   site: 'https://wiki.irosec.com',
-  // Under `astro dev`, serve /api/*.json (the live data nginx provides in
-  // production, see nginx.conf.template) straight from GitHub.
+  // Under `astro dev`, serve /api/*.json (the live data the fetcher keeps
+  // current in production, see site/fetcher/) from the live site.
   vite: {
     server: {
       proxy: {
         '/api': {
-          target: 'https://raw.githubusercontent.com',
+          target: 'https://wiki.irosec.com',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api\//, '/Gasteren/irosec-homelab/main/data/'),
         },
       },
     },

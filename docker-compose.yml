@@ -1,6 +1,12 @@
 # Builds and serves wiki.irosec.com. The build context is the repository root:
 # the site lives in site/, and the docs content and data it pulls in live at
 # the root (see site/scripts/sync-content.mjs).
+#
+# The fetcher keeps the addon stats and activity feed current in the
+# live-data volume, which nginx serves as /api/*.json. It needs the CurseForge
+# API key in the .env next to this file (on the server only, never in the
+# repo), single-quoted because the key contains `$`:
+#   CURSEFORGE_API_KEY='$2a$10$...'
 name: starlight-wiki
 
 services:
@@ -9,12 +15,35 @@ services:
       context: .
       dockerfile: site/Dockerfile
     restart: unless-stopped
-    environment:
-      # Git ref the live addon stats and activity feed are read from.
-      LIVE_DATA_REF: ${LIVE_DATA_REF:-main}
+    volumes:
+      - live-data:/srv/live:ro
     ports:
       - "${WIKI_PORT:-8093}:80"   # NPM proxies wiki.irosec.com -> this host port
     # Locally built image with no upstream registry tag, so Watchtower can't
     # pull updates for it anyway.
     labels:
       - "com.centurylinklabs.watchtower.enable=false"
+
+  fetcher:
+    build:
+      context: site/fetcher
+    restart: unless-stopped
+    volumes:
+      - live-data:/data
+    secrets:
+      - curseforge_api_key
+    # Not read_only: compose can only inject a secret sourced from .env into a
+    # writable root filesystem. The non-root user can't write outside /data.
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
+
+volumes:
+  live-data:
+
+secrets:
+  curseforge_api_key:
+    environment: CURSEFORGE_API_KEY

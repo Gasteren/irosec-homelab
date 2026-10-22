@@ -14,12 +14,13 @@ RUN npm run build
 # --- Serve stage ---
 FROM nginx:alpine
 
-# Git ref of this repo that the live data (/api/*.json, see the nginx config)
-# is read from. The nginx image substitutes it into the config at startup.
-ENV LIVE_DATA_REF=main
-
 COPY --from=build /app/site/dist /usr/share/nginx/html
-COPY site/nginx.conf.template /etc/nginx/templates/default.conf.template
+COPY site/nginx.conf /etc/nginx/conf.d/default.conf
+
+# Mount point for the live-data volume written by the fetcher service (uid
+# 10001, see site/fetcher/Dockerfile). Owning it here keeps the volume
+# writable for the fetcher even when this container creates it.
+RUN mkdir -p /srv/live && chown 10001:10001 /srv/live
 
 EXPOSE 80
 

@@ -1,7 +1,8 @@
 ---
 // Latest commits across the addon repos and this site. Rendered from
-// data/recent-activity.json (written by the sync-addon-stats workflow) and
-// re-rendered live by scripts/live-data.ts with the same markup.
+// data/recent-activity.json (a seed in the repo, refreshed from the fetcher
+// at each deploy) and re-rendered live by scripts/live-data.ts with the same
+// markup.
 import { Icon } from '@astrojs/starlight/components';
 import { activity } from '../lib/data';
 import { formatDate } from '../lib/format';
