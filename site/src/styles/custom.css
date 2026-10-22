@@ -1,0 +1,73 @@
+:root {
+  --sl-color-accent-low: #0d2347;
+  --sl-color-accent: #0e62db;
+  --sl-color-accent-high: #7aa6f5;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #d6e4fb;
+  --sl-color-accent: #0e62db;
+  --sl-color-accent-high: #0a3f8f;
+}
+
+.hero img {
+  filter: drop-shadow(0 0 40px rgba(14, 98, 219, 0.35));
+}
+
+/* Keep the header logo from ever overflowing the nav bar, regardless of
+   the source image's own dimensions. */
+.site-title img,
+header img {
+  max-height: 2rem;
+  width: auto;
+}
+
+.stat-bar {
+  display: inline-block;
+  margin: 0 0 1.5rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--sl-color-accent);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: var(--sl-color-white);
+  background: var(--sl-color-accent-low);
+}
+
+.stat-bar strong {
+  color: var(--sl-color-accent-high);
+}
+
+.dl-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: var(--sl-color-accent-low);
+  color: var(--sl-color-accent-high);
+  font-weight: 600;
+  font-size: 0.85em;
+}
+
+.sl-markdown-content img.lightbox-trigger {
+  cursor: zoom-in;
+  transition: opacity 0.15s ease;
+}
+.sl-markdown-content img.lightbox-trigger:hover {
+  opacity: 0.85;
+}
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: zoom-out;
+  padding: 2rem;
+}
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}

@@ -1,13 +1,12 @@
 node_modules/
 dist/
 .astro/
-src/
-Dockerfile
-docker-compose.yml
-astro.config.mjs
-package.json
-package-lock.json
-nginx.conf
-public/
-*.py
 .env
+
+# Copied in from the repo root by site/scripts/sync-content.mjs at dev/build time
+site/src/content/docs/infrastructure/
+site/src/content/docs/security-stack/
+site/src/content/docs/projects/
+site/src/content/docs/lessons-learned/
+site/src/content/docs/addons/
+site/src/data/
