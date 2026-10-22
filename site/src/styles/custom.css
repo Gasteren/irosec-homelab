@@ -340,7 +340,9 @@ site-search button[data-open-modal] {
   color: transparent;
 }
 
-.sl-link-button.primary {
+/* `a.` outranks Starlight's equally specific scoped button styles, which can
+   load after this file in production builds. */
+a.sl-link-button.primary {
   border-color: transparent;
   background: linear-gradient(180deg, color-mix(in srgb, var(--sl-color-accent) 80%, #fff), var(--sl-color-accent));
   color: #fff;
@@ -350,20 +352,20 @@ site-search button[data-open-modal] {
     filter 0.2s ease;
 }
 
-.sl-link-button.primary:hover {
+a.sl-link-button.primary:hover {
   color: #fff;
   filter: brightness(1.08);
   box-shadow: 0 14px 34px -12px var(--sl-color-accent);
 }
 
-.sl-link-button.secondary {
+a.sl-link-button.secondary {
   border-color: var(--irosec-border);
   background: var(--irosec-surface);
   color: var(--sl-color-white);
   transition: border-color 0.2s ease;
 }
 
-.sl-link-button.secondary:hover {
+a.sl-link-button.secondary:hover {
   border-color: var(--sl-color-accent);
   color: var(--sl-color-white);
 }

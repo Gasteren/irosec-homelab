@@ -51,6 +51,9 @@ const animations = new WeakMap<HTMLElement, number>();
 let lastUpdated = initialUpdated();
 let lastFetch = 0;
 let inFlight = false;
+// The first live values replace the build-time snapshot instantly; only
+// changes that arrive while the page is open are animated.
+let animateChanges = false;
 
 function initialUpdated(): number {
   const el = document.querySelector<HTMLTimeElement>('time[data-live="synced"]');
@@ -99,7 +102,7 @@ function setNumber(el: HTMLElement, value: number) {
   el.dataset.value = String(value);
   const token = (animations.get(el) ?? 0) + 1;
   animations.set(el, token);
-  if (reducedMotion.matches || !Number.isFinite(from)) {
+  if (!animateChanges || reducedMotion.matches || !Number.isFinite(from)) {
     el.textContent = formatNumber(value);
     return;
   }
@@ -191,7 +194,10 @@ async function refresh() {
       getJson(STATS_URL),
       wantsActivity ? getJson(ACTIVITY_URL) : undefined,
     ]);
-    if (isStats(stats)) applyStats(stats);
+    if (isStats(stats)) {
+      applyStats(stats);
+      animateChanges = true;
+    }
     if (activity) renderActivity(activity);
   } finally {
     inFlight = false;
