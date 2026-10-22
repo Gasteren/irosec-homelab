@@ -7,18 +7,21 @@ fetches once at start and then just after every 10-minute mark (UTC), which
 is what the "next sync" countdown on the site counts down to. Results are
 written atomically to DATA_DIR, which nginx serves as /api/*.json. A failed
 fetch keeps the last good file, and `--healthcheck` reports unhealthy once
-the data goes stale. Standard library only.
+the data goes stale. With HEALTHCHECKS_PING_URL set, each cycle also reports
+to Healthchecks.io (see report()), which emails when fetching keeps failing.
+Standard library only.
 
   fetch_live_data.py                run forever (the container's command)
   fetch_live_data.py --once         one fetch cycle, then exit
   fetch_live_data.py --healthcheck  exit 1 if the data is stale
 
 Environment:
-  CURSEFORGE_API_KEY    or the secret file /run/secrets/curseforge_api_key
-  GITHUB_TOKEN          optional; GitHub is read unauthenticated otherwise
-  DATA_DIR              default /data
-  STATS_STALE_AFTER     seconds, default 2100 (35 min)
-  ACTIVITY_STALE_AFTER  seconds, default 7200 (2 h)
+  CURSEFORGE_API_KEY     or the secret file /run/secrets/curseforge_api_key
+  GITHUB_TOKEN           optional; GitHub is read unauthenticated otherwise
+  HEALTHCHECKS_PING_URL  optional; https://hc-ping.com/<uuid>
+  DATA_DIR               default /data
+  STATS_STALE_AFTER      seconds, default 2100 (35 min)
+  ACTIVITY_STALE_AFTER   seconds, default 7200 (2 h)
 """
 import json
 import os
@@ -38,6 +41,7 @@ INTERVAL = 600  # the page's countdown assumes a sync at every 10th minute
 OFFSET = 2  # seconds after each mark
 STATS_STALE_AFTER = int(os.environ.get("STATS_STALE_AFTER", 35 * 60))
 ACTIVITY_STALE_AFTER = int(os.environ.get("ACTIVITY_STALE_AFTER", 2 * 60 * 60))
+PING_URL = os.environ.get("HEALTHCHECKS_PING_URL", "").strip().rstrip("/")
 USER_AGENT = "irosec-live-data/1.0 (+https://wiki.irosec.com)"
 
 CURSEFORGE = "https://api.curseforge.com/v1"
@@ -218,7 +222,8 @@ def fetch_stats(state):
         "addons": addons,
     }
     write_json(DATA_DIR / "addon-stats.json", stats)
-    log(f"addon stats: {stats['total_downloads']:,} downloads across {stats['addon_count']} addons")
+    state["stats_summary"] = f"{stats['total_downloads']:,} downloads across {stats['addon_count']} addons"
+    log(f"addon stats: {state['stats_summary']}")
     return True
 
 
@@ -296,18 +301,23 @@ def fetch_activity(state):
 def run_cycle():
     state = read_json(STATE_FILE) or {}
     state["started_at"] = STARTED_AT
+    errors = state.setdefault("errors", {})
+    stats_fetched = False
     for name, fetch, ok_key in (("CurseForge", fetch_stats, "stats_ok_at"),
                                 ("GitHub", fetch_activity, "activity_ok_at")):
         try:
             if fetch(state):
                 state[ok_key] = time.time()
+                errors.pop(name, None)
+                stats_fetched = stats_fetched or name == "CurseForge"
         except Exception as err:  # keep the last good data and try again next cycle
+            errors[name] = str(err)[:300]
             log(f"{name} fetch failed, keeping the last good data: {err}")
     write_json(STATE_FILE, state, mode=0o600)
+    report(state, stats_fetched)
 
 
-def healthcheck():
-    state = read_json(STATE_FILE) or {}
+def health_problems(state):
     now = time.time()
     problems = []
     if now - state.get("stats_ok_at", 0) > STATS_STALE_AFTER:
@@ -315,6 +325,55 @@ def healthcheck():
     # A fresh container gets until ACTIVITY_STALE_AFTER for its first activity fetch.
     if now - (state.get("activity_ok_at") or state.get("started_at", 0)) > ACTIVITY_STALE_AFTER:
         problems.append("activity feed is stale (see the logs)")
+    return problems
+
+
+last_report = None  # last ping kind sent, so only changes get logged
+
+
+def report(state, stats_fetched):
+    """Report the cycle to Healthchecks.io: a ping after a cycle that fetched
+    the stats, and /fail with the reasons once the data is stale (the same
+    thresholds as the Docker healthcheck). A failed cycle in between sends
+    nothing, so a single miss stays quiet and the check's grace period
+    decides when to alert. Reporting never affects fetching."""
+    global last_report
+    if not PING_URL:
+        return
+    if not PING_URL.startswith("https://"):
+        if last_report != "invalid":
+            log("WARNING: HEALTHCHECKS_PING_URL must start with https://; not reporting")
+        last_report = "invalid"
+        return
+    problems = health_problems(state)
+    if problems:
+        kind, url = "failure", f"{PING_URL}/fail"
+        body = "; ".join(problems + [f"{name}: {error}" for name, error in state.get("errors", {}).items()])
+    elif stats_fetched:
+        kind, url, body = "ok", PING_URL, state.get("stats_summary", "ok")
+    else:
+        return
+    try:
+        request = urllib.request.Request(url, data=body.encode()[:10_000], method="POST",
+                                         headers={"User-Agent": USER_AGENT, "Content-Type": "text/plain; charset=utf-8"})
+        with urllib.request.urlopen(request, timeout=10) as response:
+            status, answer = response.status, response.read(200).decode(errors="replace")
+    except Exception as err:  # e.g. Healthchecks.io unreachable; the URL itself is never logged
+        log(f"Healthchecks.io ping failed: {getattr(err, 'code', None) or getattr(err, 'reason', None) or err}")
+        last_report = None
+        return
+    # An unknown check still answers 200, with "OK (not found)".
+    if "not found" in answer.lower():
+        kind = "unknown"
+        if kind != last_report:
+            log("WARNING: Healthchecks.io doesn't know this check; verify HEALTHCHECKS_PING_URL")
+    elif kind != last_report:
+        log(f"Healthchecks.io: reported {kind} (HTTP {status})")
+    last_report = kind
+
+
+def healthcheck():
+    problems = health_problems(read_json(STATE_FILE) or {})
     print("; ".join(problems) or "ok")
     return 1 if problems else 0
 

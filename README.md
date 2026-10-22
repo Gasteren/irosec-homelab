@@ -26,7 +26,7 @@ The written content lives in the folders below, and the site that presents it li
 - The runner mirrors the repo onto the Docker host, rebuilds the images, and redeploys
 - A small fetcher container next to the site pulls download counts from the CurseForge API and the latest commits across the addon repos every 10 minutes, and nginx serves them to the page, so numbers and activity update without a rebuild, a commit, or the runner
 - The CurseForge API key lives only in the `.env` next to `docker-compose.yml` on the server, single-quoted because it contains `$`. The activity feed needs no GitHub token
-- If fetching keeps failing, the fetcher container turns unhealthy (visible in Portainer) and the site keeps showing the last good data
+- If fetching keeps failing, the fetcher container turns unhealthy (visible in Portainer), the site keeps showing the last good data, and a [Healthchecks.io](https://healthchecks.io) check emails after about 30 minutes without a successful fetch. A single missed fetch stays quiet. Its ping URL sits next to the API key in the server's `.env` as `HEALTHCHECKS_PING_URL`
 - No manual build step at any point
 
 ## Working on the site

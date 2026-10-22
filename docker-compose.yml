@@ -5,8 +5,10 @@
 # The fetcher keeps the addon stats and activity feed current in the
 # live-data volume, which nginx serves as /api/*.json. It needs the CurseForge
 # API key in the .env next to this file (on the server only, never in the
-# repo), single-quoted because the key contains `$`:
+# repo), single-quoted because the key contains `$`. The Healthchecks.io ping
+# URL is optional; with it, failing fetches end up in an email:
 #   CURSEFORGE_API_KEY='$2a$10$...'
+#   HEALTHCHECKS_PING_URL='https://hc-ping.com/<uuid>'
 name: starlight-wiki
 
 services:
@@ -28,6 +30,10 @@ services:
     build:
       context: site/fetcher
     restart: unless-stopped
+    environment:
+      # Optional, and a plain variable rather than a secret so the fetcher
+      # still starts while it's unset.
+      HEALTHCHECKS_PING_URL: ${HEALTHCHECKS_PING_URL:-}
     volumes:
       - live-data:/data
     secrets:
