@@ -1,0 +1,65 @@
+---
+// Starlight's footer (edit link, pagination) plus a small site footer.
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Footer.astro';
+import SocialIcons from './SocialIcons.astro';
+---
+
+<Default {...Astro.props}><slot /></Default>
+
+<div class="site-footer">
+  <div class="brand">
+    <a href="/" class="name">irosec</a>
+    <span class="motto">Secure · Connect · Automate</span>
+  </div>
+  <SocialIcons />
+  <p class="fineprint">
+    Self hosted on the irosec homelab. Built with <a href="https://starlight.astro.build">Astro Starlight</a>. <a
+      href="https://github.com/Gasteren/irosec-homelab">Source on GitHub</a
+    >.
+  </p>
+</div>
+
+<style>
+  .site-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 1.5rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--irosec-border);
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+  }
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+  }
+  .name {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: var(--sl-color-white);
+    text-decoration: none;
+  }
+  .motto {
+    font-size: var(--sl-text-xs);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sl-color-accent-high);
+  }
+  .fineprint {
+    flex-basis: 100%;
+    margin: 0;
+    font-size: var(--sl-text-xs);
+  }
+  .fineprint a {
+    color: var(--sl-color-gray-2);
+    text-underline-offset: 3px;
+  }
+  .fineprint a:hover {
+    color: var(--sl-color-accent-high);
+  }
+</style>

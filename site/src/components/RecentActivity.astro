@@ -1,0 +1,163 @@
+---
+// Latest commits across the addon repos and this site. Rendered from
+// data/recent-activity.json (written by the sync-addon-stats workflow) and
+// re-rendered live by scripts/live-data.ts with the same markup.
+import { Icon } from '@astrojs/starlight/components';
+import { activity } from '../lib/data';
+import { formatDate } from '../lib/format';
+
+// Keep in sync with the :nth-child() rule below.
+const VISIBLE = 6;
+const commits = activity.commits.slice(0, 20);
+const key = commits.map((c) => `${c.repo}@${c.sha}`).join(',');
+---
+
+<div class="activity not-content" data-live-activity data-visible={VISIBLE} data-key={key}>
+  <ol class="activity-list">
+    {
+      commits.map((c) => (
+        <li>
+          <a class="activity-item" href={c.url} target="_blank" rel="noopener noreferrer">
+            <span class="activity-repo">{c.repo}</span>
+            <span class="activity-msg">{c.message}</span>
+            <time class="activity-time" datetime={c.date} data-relative title={formatDate(c.date, true)}>
+              {formatDate(c.date)}
+            </time>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+  <div class="activity-footer">
+    <button type="button" class="activity-more" data-activity-more hidden={commits.length <= VISIBLE}>
+      Show all ({commits.length})
+    </button>
+    <a class="activity-profile" href="https://github.com/Gasteren" target="_blank" rel="noopener noreferrer">
+      More on GitHub <Icon name="external" size="0.9rem" />
+    </a>
+  </div>
+</div>
+
+<script>
+  import '../scripts/live-data';
+</script>
+
+<style>
+  /* Items are also created by live-data.ts, so their rules are :global(). */
+  .activity-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid var(--irosec-border);
+    border-radius: 1rem;
+    background: var(--irosec-surface);
+    box-shadow: var(--irosec-shadow);
+    overflow: hidden;
+  }
+  .activity-list :global(li + li) {
+    border-top: 1px solid var(--irosec-border);
+  }
+  .activity:not([data-expanded]) .activity-list :global(li:nth-child(n + 7)) {
+    display: none;
+  }
+  .activity-list :global(.activity-item) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'repo time'
+      'msg msg';
+    align-items: center;
+    gap: 0.3rem 1rem;
+    padding: 0.75rem 1.1rem;
+    color: var(--sl-color-gray-2);
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+  .activity-list :global(.activity-item:hover),
+  .activity-list :global(.activity-item:focus-visible) {
+    background: color-mix(in srgb, var(--sl-color-accent) 10%, transparent);
+  }
+  .activity-list :global(.activity-repo) {
+    grid-area: repo;
+    justify-self: start;
+    max-width: 100%;
+    padding: 0.1rem 0.55rem;
+    border: 1px solid color-mix(in srgb, var(--sl-color-accent) 45%, transparent);
+    border-radius: 999px;
+    background: var(--sl-color-accent-low);
+    color: var(--sl-color-accent-high);
+    font-family: var(--__sl-font-mono);
+    font-size: var(--sl-text-xs);
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .activity-list :global(.activity-msg) {
+    grid-area: msg;
+    min-width: 0;
+    color: var(--sl-color-white);
+    font-size: var(--sl-text-sm);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .activity-list :global(.activity-time) {
+    grid-area: time;
+    color: var(--sl-color-gray-3);
+    font-family: var(--__sl-font-mono);
+    font-size: var(--sl-text-xs);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  @media (min-width: 45rem) {
+    .activity-list :global(.activity-item) {
+      grid-template-columns: 13.5rem minmax(0, 1fr) 4.5rem;
+      grid-template-areas: 'repo msg time';
+      padding: 0.65rem 1.1rem;
+    }
+    .activity-list :global(.activity-time) {
+      text-align: end;
+    }
+  }
+  .activity-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 0.85rem;
+  }
+  .activity-more {
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--irosec-border);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--sl-color-white);
+    font: inherit;
+    font-size: var(--sl-text-sm);
+    cursor: pointer;
+    transition:
+      background-color 0.15s ease,
+      border-color 0.15s ease;
+  }
+  .activity-more:hover {
+    border-color: var(--sl-color-accent);
+    background: var(--sl-color-accent-low);
+  }
+  .activity-more[hidden] {
+    display: none;
+  }
+  .activity-profile {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-inline-start: auto;
+    color: var(--sl-color-gray-3);
+    font-size: var(--sl-text-sm);
+    text-decoration: none;
+  }
+  .activity-profile:hover {
+    color: var(--sl-color-accent-high);
+  }
+</style>

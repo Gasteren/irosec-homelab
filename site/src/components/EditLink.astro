@@ -1,0 +1,12 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/EditLink.astro';
+
+// Section pages are copied from the repo root into src/content/docs/<section>/
+// at build time (scripts/sync-content.mjs), so point their edit links at the
+// originals. Top-level pages such as index.mdx really live in site/.
+const { editUrl } = Astro.props;
+const fixedUrl = editUrl && new URL(editUrl.href.replace(/\/site\/src\/content\/docs\/(?=[^/]+\/)/, '/'));
+---
+
+<Default {...Astro.props} editUrl={fixedUrl} />

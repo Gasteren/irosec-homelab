@@ -1,0 +1,180 @@
+---
+// Clickable cards for the main sections on the home page. The addons card
+// shows the live addon count and downloads.
+import { Icon } from '@astrojs/starlight/components';
+import { stats } from '../lib/data';
+import { writeupCounts } from '../lib/docs';
+import { formatNumber } from '../lib/format';
+
+interface Item {
+  title: string;
+  text: string;
+  href: string;
+  icon: string;
+  /** Folder whose writeups are counted on the card. */
+  section?: string;
+  /** Show the live addon stats on this card (and give it more room). */
+  addons?: boolean;
+}
+
+interface Props {
+  items: Item[];
+}
+
+const { items } = Astro.props;
+const counts = await writeupCounts();
+const pages = (n = 0) => `${n} ${n === 1 ? 'writeup' : 'writeups'}`;
+---
+
+<div class="section-cards not-content">
+  {
+    items.map((item) => (
+      <a class:list={['section-card', { featured: item.addons }]} href={item.href}>
+        <span class="icon" aria-hidden="true">
+          <Icon name={item.icon as any} size="1.35rem" />
+        </span>
+        <span class="title">{item.title}</span>
+        <span class="text">{item.text}</span>
+        <span class="meta">
+          {item.addons ? (
+            <>
+              <span data-live="addon-count" data-value={stats.addon_count}>
+                {stats.addon_count}
+              </span>{' '}
+              addons
+              <span class="dot" aria-hidden="true">
+                ·
+              </span>
+              <span data-live="total-downloads" data-value={stats.total_downloads}>
+                {formatNumber(stats.total_downloads)}
+              </span>{' '}
+              downloads
+            </>
+          ) : (
+            pages(counts.get(item.section ?? ''))
+          )}
+          <Icon name="right-arrow" class="arrow" size="1rem" />
+        </span>
+      </a>
+    ))
+  }
+</div>
+
+<script>
+  import '../scripts/live-data';
+</script>
+
+<style>
+  .section-cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .section-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.35rem 1.4rem 1.2rem;
+    border: 1px solid var(--irosec-border);
+    border-radius: 1rem;
+    background: var(--irosec-surface);
+    color: var(--sl-color-gray-2);
+    text-decoration: none;
+    box-shadow: var(--irosec-shadow);
+    overflow: hidden;
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .section-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(28rem 12rem at 0% 0%, var(--irosec-glow), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+  }
+  .section-card:hover,
+  .section-card:focus-visible {
+    border-color: color-mix(in srgb, var(--sl-color-accent) 70%, transparent);
+    box-shadow:
+      var(--irosec-shadow),
+      0 0 0 1px color-mix(in srgb, var(--sl-color-accent) 35%, transparent),
+      0 12px 32px -12px color-mix(in srgb, var(--sl-color-accent) 45%, transparent);
+  }
+  .section-card:hover::before,
+  .section-card:focus-visible::before {
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .section-card:hover {
+      transform: translateY(-2px);
+    }
+  }
+  .icon {
+    display: inline-grid;
+    place-items: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-bottom: 0.35rem;
+    border: 1px solid color-mix(in srgb, var(--sl-color-accent) 55%, transparent);
+    border-radius: 0.7rem;
+    background: var(--sl-color-accent-low);
+    color: var(--sl-color-accent-high);
+  }
+  .title {
+    font-size: var(--sl-text-xl);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--sl-color-white);
+  }
+  .text {
+    flex-grow: 1;
+    font-size: var(--sl-text-sm);
+    line-height: 1.55;
+  }
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 0.6rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--irosec-border);
+    font-size: var(--sl-text-xs);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--sl-color-gray-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .featured .meta {
+    color: var(--sl-color-accent-high);
+  }
+  .dot {
+    opacity: 0.6;
+    margin-inline: 0.15rem;
+  }
+  .meta :global(.arrow) {
+    margin-inline-start: auto;
+    color: var(--sl-color-accent-high);
+    transition: transform 0.2s ease;
+  }
+  .section-card:hover .meta :global(.arrow) {
+    transform: translateX(3px);
+  }
+  @media (min-width: 40rem) {
+    .section-cards {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .featured {
+      grid-column: span 2;
+    }
+  }
+  @media (min-width: 64rem) {
+    .section-cards {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

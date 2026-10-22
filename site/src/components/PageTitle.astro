@@ -1,0 +1,32 @@
+---
+// Adds a small section label above the page title, e.g. "Security Stack".
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+
+// Same labels as the sidebar groups in astro.config.mjs.
+const LABELS: Record<string, string> = {
+  infrastructure: 'Infrastructure',
+  'security-stack': 'Security Stack',
+  projects: 'Projects',
+  'lessons-learned': 'Lessons Learned',
+  addons: 'World of Warcraft',
+};
+
+const [section] = Astro.props.slug.split('/');
+const label = LABELS[section];
+const showLabel = label && label !== Astro.props.entry.data.title;
+---
+
+{showLabel && <p class="eyebrow">{label}</p>}
+<Default {...Astro.props} />
+
+<style>
+  .eyebrow {
+    margin: 1rem 0 -0.5rem;
+    font-size: var(--sl-text-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--sl-color-accent-high);
+  }
+</style>

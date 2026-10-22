@@ -1,8 +1,20 @@
 name: Deploy wiki
 
+# Rebuilds and redeploys the site when content or site code changes. Addon
+# stats and the activity feed are fetched live by the site, so the sync bot's
+# data commits don't need a deploy.
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'data/addon-stats.json'
+      - 'data/recent-activity.json'
+  workflow_dispatch: {}
+
+# While the runner is offline, pushes queue up; only the newest one deploys.
+concurrency:
+  group: deploy-wiki
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -10,19 +22,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Sync docs into site scaffold
+      - name: Mirror the repo into the compose directory
+        # .env holds server-side settings and isn't in the repo, so keep it.
         run: |
-          SCAFFOLD=/mnt/mainraid/compose/starlight-wiki
-          mkdir -p "$SCAFFOLD/src/content/docs"
-          for dir in infrastructure security-stack projects lessons-learned addons; do
-            rm -rf "$SCAFFOLD/src/content/docs/$dir"
-            cp -r "$dir" "$SCAFFOLD/src/content/docs/$dir"
-          done
-          mkdir -p "$SCAFFOLD/src/data"
-          cp data/addon-stats.json "$SCAFFOLD/src/data/addon-stats.json" 
+          rsync -a --delete --exclude '.git/' --exclude '.env' ./ /mnt/mainraid/compose/starlight-wiki/
 
       - name: Build and deploy
         working-directory: /mnt/mainraid/compose/starlight-wiki
-        run: |
-          docker compose build
-          docker compose up -d
+        run: docker compose up -d --build --wait --wait-timeout 120

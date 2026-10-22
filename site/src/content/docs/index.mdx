@@ -1,0 +1,57 @@
+---
+title: irosec
+description: Portfolio of self hosted infrastructure, security engineering, and published World of Warcraft addons.
+template: splash
+hero:
+  tagline: A working portfolio in infrastructure, security, and published software.
+  image:
+    dark: ../../assets/hero-logo.png
+    light: ../../assets/hero-logo-light.png
+  actions:
+    - text: Browse the docs
+      link: /infrastructure/proxmox/
+      icon: right-arrow
+      variant: primary
+    - text: GitHub
+      link: https://github.com/Gasteren/irosec-homelab
+      icon: github
+      variant: secondary
+---
+
+import HomeStats from '../../components/HomeStats.astro';
+import SectionCards from '../../components/SectionCards.astro';
+import RecentActivity from '../../components/RecentActivity.astro';
+import StackGrid from '../../components/StackGrid.astro';
+
+<HomeStats />
+
+This site covers two things built and maintained in the open: a self hosted homelab run as production infrastructure, and published World of Warcraft addons with real users. Both are documented as they actually are, including the reasoning behind decisions, the known gaps, and the incidents that shaped the current state.
+
+## Sections
+
+<SectionCards
+  items={[
+    { title: 'Infrastructure', icon: 'setting', href: '/infrastructure/proxmox/', section: 'infrastructure', text: 'Proxmox, Docker, networking, Home Assistant.' },
+    { title: 'Security Stack', icon: 'approve-check', href: '/security-stack/firewall/', section: 'security-stack', text: 'Firewall, IDS/IPS, SIEM.' },
+    { title: 'Projects', icon: 'rocket', href: '/projects/vlan-segmentation/', section: 'projects', text: 'Completed project writeups.' },
+    { title: 'Lessons Learned', icon: 'warning', href: '/lessons-learned/', section: 'lessons-learned', text: 'Incidents, gaps, and fixes.' },
+    { title: 'Addons', icon: 'star', href: '/addons/', addons: true, text: 'Published World of Warcraft addons on CurseForge, with download counts that update live.' },
+  ]}
+/>
+
+## Recent activity
+
+<RecentActivity />
+
+## Stack
+
+<StackGrid
+  items={[
+    { layer: 'Hypervisor', tech: 'Proxmox VE' },
+    { layer: 'Containers', tech: 'Docker, Portainer' },
+    { layer: 'Smart home', tech: 'Home Assistant' },
+    { layer: 'Networking', tech: 'UniFi Dream Machine Pro' },
+    { layer: 'Reverse proxy', tech: 'Nginx Proxy Manager' },
+    { layer: 'Documentation', tech: 'Astro Starlight' },
+  ]}
+/>

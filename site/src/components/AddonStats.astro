@@ -1,0 +1,84 @@
+---
+// Headline panel for the addons page: live total downloads and sync status.
+import { Icon } from '@astrojs/starlight/components';
+import { stats } from '../lib/data';
+import { formatNumber } from '../lib/format';
+import SyncStatus from './SyncStatus.astro';
+---
+
+<div class="addon-stats not-content">
+  <div class="total">
+    <span class="value" data-live="total-downloads" data-value={stats.total_downloads}
+      >{formatNumber(stats.total_downloads)}</span
+    >
+    <span class="label">
+      downloads across <span data-live="addon-count" data-value={stats.addon_count}>{stats.addon_count}</span> published
+      addons
+    </span>
+  </div>
+  <div class="side">
+    <SyncStatus />
+    <a class="profile" href="https://www.curseforge.com/members/frostaphim/projects">
+      frostaphim on CurseForge <Icon name="external" size="0.9rem" />
+    </a>
+  </div>
+</div>
+
+<style>
+  .addon-stats {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    padding: 1.5rem 1.6rem;
+    border: 1px solid color-mix(in srgb, var(--sl-color-accent) 45%, var(--irosec-border));
+    border-radius: 1rem;
+    background:
+      radial-gradient(30rem 14rem at 0% 0%, var(--irosec-glow), transparent 70%),
+      var(--irosec-surface);
+    box-shadow: var(--irosec-shadow);
+    overflow: hidden;
+  }
+  .total {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .value {
+    font-size: clamp(2.2rem, 1.6rem + 2.5vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--sl-color-white);
+    font-variant-numeric: tabular-nums;
+  }
+  .label {
+    color: var(--sl-color-gray-2);
+  }
+  .side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+  .profile {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: var(--sl-text-sm);
+    font-weight: 600;
+    color: var(--sl-color-accent-high);
+    text-decoration: none;
+  }
+  .profile:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  @media (min-width: 50rem) {
+    .side {
+      align-items: flex-end;
+    }
+  }
+</style>

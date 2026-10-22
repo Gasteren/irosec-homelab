@@ -1,0 +1,13 @@
+# Whitelist: only send what the site build needs to the Docker daemon. This
+# also keeps .env (next to docker-compose.yml on the server) out of the build.
+*
+!site/
+!infrastructure/
+!security-stack/
+!projects/
+!lessons-learned/
+!addons/
+!data/
+site/node_modules/
+site/dist/
+site/.astro/

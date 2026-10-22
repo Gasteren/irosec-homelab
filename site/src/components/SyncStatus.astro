@@ -1,0 +1,35 @@
+---
+// "Synced 4m ago · next sync in 05:12", kept current by scripts/live-data.ts.
+import { stats } from '../lib/data';
+import { formatDate } from '../lib/format';
+---
+
+<span class="sync-status" data-live-state="idle">
+  <span class="live-dot" aria-hidden="true"></span>
+  <span>
+    Synced <time data-live="synced" datetime={stats.updated} title={formatDate(stats.updated, true)}
+      >{formatDate(stats.updated, true)}</time
+    >
+  </span>
+  <span class="sep" aria-hidden="true">·</span>
+  <span data-live="next-sync">syncs every 10 min</span>
+</span>
+
+<script>
+  import '../scripts/live-data';
+</script>
+
+<style>
+  .sync-status {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0.5rem;
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .sep {
+    opacity: 0.5;
+  }
+</style>
