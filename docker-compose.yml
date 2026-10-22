@@ -8,9 +8,10 @@ services:
     build:
       context: .
       dockerfile: site/Dockerfile
-      args:
-        GITHUB_TOKEN: ${GITHUB_TOKEN}
     restart: unless-stopped
+    environment:
+      # Git ref the live addon stats and activity feed are read from.
+      LIVE_DATA_REF: ${LIVE_DATA_REF:-main}
     ports:
       - "${WIKI_PORT:-8093}:80"   # NPM proxies wiki.irosec.com -> this host port
     # Locally built image with no upstream registry tag, so Watchtower can't

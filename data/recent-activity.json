@@ -1,0 +1,144 @@
+{
+  "commits": [
+    {
+      "repo": "TwitchDropsWatcher",
+      "message": "Update TwitchDropsWatcher.toc",
+      "date": "2026-10-15T22:42:51Z",
+      "url": "https://github.com/Gasteren/TwitchDropsWatcher/commit/acc806174e91e03548fce4ae909707fd28e05a34",
+      "sha": "acc8061"
+    },
+    {
+      "repo": "TimeStamp",
+      "message": "Update TimeStamp.toc",
+      "date": "2026-10-15T22:40:15Z",
+      "url": "https://github.com/Gasteren/TimeStamp/commit/364c3950788f93b746e9bae663a78947b029e0d1",
+      "sha": "364c395"
+    },
+    {
+      "repo": "RepKeeper",
+      "message": "Update RepKeeper.toc",
+      "date": "2026-10-15T22:39:43Z",
+      "url": "https://github.com/Gasteren/RepKeeper/commit/8d1ce27adfe5d508782b261c672efa1cc5da3819",
+      "sha": "8d1ce27"
+    },
+    {
+      "repo": "LoZN64",
+      "message": "Update LoZN64.toc",
+      "date": "2026-10-15T22:39:22Z",
+      "url": "https://github.com/Gasteren/LoZN64/commit/e24ace73e3baa3f2e46f688e7e7ff119f0e167ce",
+      "sha": "e24ace7"
+    },
+    {
+      "repo": "LevelTimeTracker",
+      "message": "Update LevelTimeTracker.toc",
+      "date": "2026-10-15T22:39:06Z",
+      "url": "https://github.com/Gasteren/LevelTimeTracker/commit/111f349bdc98e135cc2b6be25ec2316efb013901",
+      "sha": "111f349"
+    },
+    {
+      "repo": "FishKeeper",
+      "message": "Update FishKeeper.toc",
+      "date": "2026-10-15T22:38:25Z",
+      "url": "https://github.com/Gasteren/FishKeeper/commit/159a4b18f988532699d89ca6f4f45bbc369477e4",
+      "sha": "159a4b1"
+    },
+    {
+      "repo": "BetterBags_Fishing",
+      "message": "Update BetterBags_Fishing.toc",
+      "date": "2026-10-15T22:38:13Z",
+      "url": "https://github.com/Gasteren/BetterBags_Fishing/commit/ccfc878799580cfb9c729e839db47f8c5afc9238",
+      "sha": "ccfc878"
+    },
+    {
+      "repo": "AntiSocial",
+      "message": "Update AntiSocial.toc",
+      "date": "2026-10-15T22:37:56Z",
+      "url": "https://github.com/Gasteren/AntiSocial/commit/6a2568e3929db2cc02ee29ec24f8d40fb8eb921b",
+      "sha": "6a2568e"
+    },
+    {
+      "repo": "Adibags_Fishing",
+      "message": "Update AdiBags_fishing.toc",
+      "date": "2026-10-15T22:37:09Z",
+      "url": "https://github.com/Gasteren/Adibags_Fishing/commit/4a5457d78d661ef3603e578dfd30f5e9da08f8a6",
+      "sha": "4a5457d"
+    },
+    {
+      "repo": "HandyNotes_ValTeleports",
+      "message": "Update HandyNotes_ValTeleports.toc",
+      "date": "2026-10-14T15:31:01Z",
+      "url": "https://github.com/Gasteren/HandyNotes_ValTeleports/commit/bde6e89ba5f0fbdb4b4fd4c7c2debb35f216731b",
+      "sha": "bde6e89"
+    },
+    {
+      "repo": "HandyNotes_NaigtalTeleports",
+      "message": "Update HandyNotes_NaigtalTeleports.toc",
+      "date": "2026-10-14T15:30:45Z",
+      "url": "https://github.com/Gasteren/HandyNotes_NaigtalTeleports/commit/4699ffda750c69a2775ca52abba0879238800956",
+      "sha": "4699ffd"
+    },
+    {
+      "repo": "HandyNotes_Jetpacks",
+      "message": "Update HandyNotes_Jetpacks.toc",
+      "date": "2026-10-14T15:30:27Z",
+      "url": "https://github.com/Gasteren/HandyNotes_Jetpacks/commit/bf3ba0a12fd84bc66c8661d9e2d1ca8fe2a3e2a9",
+      "sha": "bf3ba0a"
+    },
+    {
+      "repo": "HandyNotes_AncientShrines",
+      "message": "Update HandyNotes_AncientShrines.toc",
+      "date": "2026-10-14T15:29:49Z",
+      "url": "https://github.com/Gasteren/HandyNotes_AncientShrines/commit/8078ee1d29ccdb5521d28fab3523b0bf2848e27d",
+      "sha": "8078ee1"
+    },
+    {
+      "repo": "Hall-Of-Fallen-Heroes",
+      "message": "Update HallOfFallenHeroes.toc",
+      "date": "2026-10-14T15:29:17Z",
+      "url": "https://github.com/Gasteren/Hall-Of-Fallen-Heroes/commit/0bb7485775097a0a57e69aa6273a4172df98c1b1",
+      "sha": "0bb7485"
+    },
+    {
+      "repo": "FishKeeper",
+      "message": "Update FishKeeper.toc",
+      "date": "2026-10-14T15:28:48Z",
+      "url": "https://github.com/Gasteren/FishKeeper/commit/b0c137b405441d0f582026a6ca3313911f31ce65",
+      "sha": "b0c137b"
+    },
+    {
+      "repo": "BetterBags_Fishing",
+      "message": "Update BetterBags_Fishing.toc",
+      "date": "2026-10-14T15:28:18Z",
+      "url": "https://github.com/Gasteren/BetterBags_Fishing/commit/475e72b77f82a359670263763e6b302a04a87a31",
+      "sha": "475e72b"
+    },
+    {
+      "repo": "AntiSocial",
+      "message": "Update AntiSocial.toc",
+      "date": "2026-10-14T15:27:56Z",
+      "url": "https://github.com/Gasteren/AntiSocial/commit/69f37e8a15ab2f70550de8a23f94a4467b1ce8ab",
+      "sha": "69f37e8"
+    },
+    {
+      "repo": "Adibags_Fishing",
+      "message": "Bump addon version to 12.1.5",
+      "date": "2026-10-14T15:27:31Z",
+      "url": "https://github.com/Gasteren/Adibags_Fishing/commit/888d4e18bc797c9aeaa43fc264fd7ea9f660562e",
+      "sha": "888d4e1"
+    },
+    {
+      "repo": "TwitchDropsWatcher",
+      "message": "Update release metadata to 12.1.5",
+      "date": "2026-10-14T15:27:00Z",
+      "url": "https://github.com/Gasteren/TwitchDropsWatcher/commit/a2dca978198f02d2ec70bc85053b92ae9df62749",
+      "sha": "a2dca97"
+    },
+    {
+      "repo": "TimeStamp",
+      "message": "Update supported game versions to 12.1.5",
+      "date": "2026-10-14T15:26:00Z",
+      "url": "https://github.com/Gasteren/TimeStamp/commit/e7ffec61768f3927980e6f00c6bdf7ccc7232039",
+      "sha": "e7ffec6"
+    }
+  ]
+}
