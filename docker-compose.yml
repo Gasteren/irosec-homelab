@@ -32,9 +32,8 @@ services:
       - live-data:/data
     secrets:
       - curseforge_api_key
-    read_only: true
-    tmpfs:
-      - /tmp
+    # Not read_only: compose can only inject a secret sourced from .env into a
+    # writable root filesystem. The non-root user can't write outside /data.
     cap_drop:
       - ALL
     security_opt:
