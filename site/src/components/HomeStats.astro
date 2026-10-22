@@ -1,0 +1,86 @@
+---
+// Stat strip under the home page hero. Numbers marked data-live are refreshed
+// by scripts/live-data.ts.
+import { stats } from '../lib/data';
+import { writeupCounts } from '../lib/docs';
+import { formatDate, formatNumber } from '../lib/format';
+
+const writeups = [...(await writeupCounts()).values()].reduce((sum, n) => sum + n, 0);
+---
+
+<div class="home-stats not-content" data-live-state="idle">
+  <div class="stat">
+    <span class="value" data-live="total-downloads" data-value={stats.total_downloads}
+      >{formatNumber(stats.total_downloads)}</span
+    >
+    <span class="label">addon downloads</span>
+  </div>
+  <div class="stat">
+    <span class="value" data-live="addon-count" data-value={stats.addon_count}>{stats.addon_count}</span>
+    <span class="label">published addons</span>
+  </div>
+  <div class="stat">
+    <span class="value">{writeups}</span>
+    <span class="label">writeups</span>
+  </div>
+  <div class="stat sync">
+    <span class="value">
+      <span class="live-dot" aria-hidden="true"></span>
+      <time data-live="synced" datetime={stats.updated} title={formatDate(stats.updated, true)}
+        >{formatDate(stats.updated)}</time
+      >
+    </span>
+    <span class="label" data-live="next-sync">syncs every 10 min</span>
+  </div>
+</div>
+
+<script>
+  import '../scripts/live-data';
+</script>
+
+<style>
+  .home-stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    overflow: hidden;
+    border: 1px solid var(--irosec-border);
+    border-radius: 1rem;
+    background: var(--irosec-border);
+    box-shadow: var(--irosec-shadow);
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.1rem 1.25rem;
+    background: var(--irosec-surface);
+  }
+  .value {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-size: clamp(1.4rem, 1.1rem + 1.2vw, 1.9rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--sl-color-white);
+    font-variant-numeric: tabular-nums;
+  }
+  .sync .value {
+    font-size: clamp(1.15rem, 1rem + 0.8vw, 1.45rem);
+  }
+  .label {
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+    font-variant-numeric: tabular-nums;
+  }
+  @media (min-width: 50rem) {
+    .home-stats {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .stat {
+      padding: 1.35rem 1.5rem;
+    }
+  }
+</style>

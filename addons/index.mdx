@@ -3,67 +3,96 @@ title: Addons
 description: World of Warcraft addons published on CurseForge under frostaphim.
 ---
 
-import stats from '../../../data/addon-stats.json';
-import SyncCountdown from '../../../components/SyncCountdown.astro';
+import AddonStats from '../../../components/AddonStats.astro';
+import AddonGrid from '../../../components/AddonGrid.astro';
+import AddonCard from '../../../components/AddonCard.astro';
 
-export function dl(slug) {
-  const addon = stats.addons.find((a) => a.slug === slug);
-  const value = addon ? addon.downloads.toLocaleString() : '—';
-  return <span class="dl-badge">{value}</span>;
-}
-
-<div class="stat-bar">
-	<strong>{stats.total_downloads.toLocaleString()}</strong> downloads · next sync in <SyncCountdown />
-</div>
+<AddonStats />
 
 Published on CurseForge under the [frostaphim](https://www.curseforge.com/members/frostaphim/projects) handle. Development uses GitHub Actions for automated releases to CurseForge on push to main.
 
 ## Map & navigation
 
-| Addon | Downloads | Description |
-|---|---|---|
-| [HandyNotes_AncientShrines](https://www.curseforge.com/wow/addons/handynotes-ancientshrines) | {dl('handynotes-ancientshrines')} | Marks every Ancient Shrine on the Broken Shore. |
-| [Handynotes_Jetpacks](https://www.curseforge.com/wow/addons/handynotes-jetpacks) | {dl('handynotes-jetpacks')} | HandyNotes plugin marking jetpack pickup locations. |
-| [HandyNotes_NaigtalTeleports](https://www.curseforge.com/wow/addons/handynotes-naigtalteleports) | {dl('handynotes-naigtalteleports')} | Adds Manaforge Translocator Network node locations for Naigtal. |
-| [HandyNotes_ValTeleports](https://www.curseforge.com/wow/addons/handynotes-valteleports) | {dl('handynotes-valteleports')} | Adds Manaforge Translocator Network node locations for Val. |
+<AddonGrid>
+  <AddonCard name="HandyNotes_AncientShrines" slug="handynotes-ancientshrines">
+    Marks every Ancient Shrine on the Broken Shore.
+  </AddonCard>
+  <AddonCard name="Handynotes_Jetpacks" slug="handynotes-jetpacks">
+    HandyNotes plugin marking jetpack pickup locations.
+  </AddonCard>
+  <AddonCard name="HandyNotes_NaigtalTeleports" slug="handynotes-naigtalteleports">
+    Adds Manaforge Translocator Network node locations for Naigtal.
+  </AddonCard>
+  <AddonCard name="HandyNotes_ValTeleports" slug="handynotes-valteleports">
+    Adds Manaforge Translocator Network node locations for Val.
+  </AddonCard>
+</AddonGrid>
 
 ## Bags & inventory
 
-| Addon | Downloads | Description |
-|---|---|---|
-| [BetterBags - Fishing](https://www.curseforge.com/wow/addons/betterbags-fishing) | {dl('betterbags-fishing')} | Adds a fishing category to BetterBags. |
-| [Adibags_Fishing](https://www.curseforge.com/wow/addons/adibags-fishing) | {dl('adibags-fishing')} | Adds a fishing tools category to AdiBags. |
+<AddonGrid>
+  <AddonCard name="BetterBags - Fishing" slug="betterbags-fishing">
+    Adds a fishing category to BetterBags.
+  </AddonCard>
+  <AddonCard name="Adibags_Fishing" slug="adibags-fishing">
+    Adds a fishing tools category to AdiBags.
+  </AddonCard>
+</AddonGrid>
 
 ## PvP
 
-| Addon | Downloads | Description |
-|---|---|---|
-| [Interrupted v5](https://www.curseforge.com/wow/addons/interrupted-x) | {dl('interrupted-x')} | Tracks and displays interrupts during PvP. |
-| [XInterruptBar](https://www.curseforge.com/wow/addons/interruptbar-v1) | {dl('interruptbar-v1')} | Interrupt cooldown tracking bar for PvP. |
+<AddonGrid>
+  <AddonCard name="Interrupted v5" slug="interrupted-x">
+    Tracks and displays interrupts during PvP.
+  </AddonCard>
+  <AddonCard name="XInterruptBar" slug="interruptbar-v1">
+    Interrupt cooldown tracking bar for PvP.
+  </AddonCard>
+</AddonGrid>
 
 ## Guild & social
 
-| Addon | Downloads | Description |
-|---|---|---|
-| [RepKeeper](https://www.curseforge.com/wow/addons/repkeeper) | {dl('repkeeper')} | Player reputation, blacklist, and encounter history tracker. |
-| [Hall of Fallen Heroes [WD]](https://www.curseforge.com/wow/addons/hall-of-fallen-heroes-wd) | {dl('hall-of-fallen-heroes-wd')} | Guild addon for Wicked Demise, tracking in-game memorial graveyards. See the [full writeup](/projects/hall-of-fallen-heroes/). |
-| [AntiSocial](https://www.curseforge.com/wow/addons/antisocial) | {dl('antisocial')} | Whisper filter with auto-reply and a persistent filter log. |
+<AddonGrid>
+  <AddonCard name="RepKeeper" slug="repkeeper">
+    Player reputation, blacklist, and encounter history tracker.
+  </AddonCard>
+  <AddonCard name="Hall of Fallen Heroes [WD]" slug="hall-of-fallen-heroes-wd">
+    Guild addon for Wicked Demise, tracking in-game memorial graveyards. See the [full writeup](/projects/hall-of-fallen-heroes/).
+  </AddonCard>
+  <AddonCard name="AntiSocial" slug="antisocial">
+    Whisper filter with auto-reply and a persistent filter log.
+  </AddonCard>
+</AddonGrid>
 
 ## Utility
 
-| Addon | Downloads | Description |
-|---|---|---|
-| [Twitch Drops Watcher](https://www.curseforge.com/wow/addons/twitch-drops-watcher) | {dl('twitch-drops-watcher')} | Tracks active Twitch Drop campaigns, rewards, requirements, and duration in-game. |
-| [Level Time Tracker](https://www.curseforge.com/wow/addons/leveltimetracker) | {dl('leveltimetracker')} | Tracks time per level with live XP/hour and progress tracking. |
-| [LoZN64 Legend of Zelda LevelUp](https://www.curseforge.com/wow/addons/lozn64-levelup) | {dl('lozn64-levelup')} | Replaces the default level-up sound with the Zelda N64 level-up sound. |
-| [AfkDelight](https://www.curseforge.com/wow/addons/afkdelight) | {dl('afkdelight')} | Adds a custom touch to the AFK screen. |
-| [TimeStamp](https://www.curseforge.com/wow/addons/timestamp) | {dl('timestamp')} | Adds timestamps to screenshots, including time, area, and level. |
+<AddonGrid>
+  <AddonCard name="Twitch Drops Watcher" slug="twitch-drops-watcher">
+    Tracks active Twitch Drop campaigns, rewards, requirements, and duration in-game.
+  </AddonCard>
+  <AddonCard name="Level Time Tracker" slug="leveltimetracker">
+    Tracks time per level with live XP/hour and progress tracking.
+  </AddonCard>
+  <AddonCard name="LoZN64 Legend of Zelda LevelUp" slug="lozn64-levelup">
+    Replaces the default level-up sound with the Zelda N64 level-up sound.
+  </AddonCard>
+  <AddonCard name="AfkDelight" slug="afkdelight">
+    Adds a custom touch to the AFK screen.
+  </AddonCard>
+  <AddonCard name="TimeStamp" slug="timestamp">
+    Adds timestamps to screenshots, including time, area, and level.
+  </AddonCard>
+</AddonGrid>
 
 ## In development
 
 Not yet published on CurseForge:
 
-- **GuildPanel** - guild management UI targeting WoW patch 12.0 (Midnight), with loot log and applicant tracking.
-- **VaultKeeper** - active development.
-
-*Downloads last synced: {new Date(stats.updated).toLocaleString()}*
+<AddonGrid>
+  <AddonCard name="GuildPanel" status="In development">
+    Guild management UI targeting WoW patch 12.0 (Midnight), with loot log and applicant tracking.
+  </AddonCard>
+  <AddonCard name="VaultKeeper" status="In development">
+    Active development.
+  </AddonCard>
+</AddonGrid>

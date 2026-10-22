@@ -1,0 +1,146 @@
+---
+// One addon on the addons page. With a slug it links to CurseForge and shows
+// the live download count; with a status (e.g. "In development") it doesn't.
+import { Icon } from '@astrojs/starlight/components';
+import { downloadsFor } from '../lib/data';
+import { formatNumber } from '../lib/format';
+
+interface Props {
+  name: string;
+  /** CurseForge project slug, e.g. "handynotes-jetpacks". */
+  slug?: string;
+  /** Overrides the CurseForge link. */
+  href?: string;
+  /** Shown instead of downloads for unreleased addons. */
+  status?: string;
+}
+
+const { name, slug, status } = Astro.props;
+const href = Astro.props.href ?? (slug ? `https://www.curseforge.com/wow/addons/${slug}` : undefined);
+const downloads = slug ? downloadsFor(slug) : undefined;
+---
+
+<article class:list={['addon-card', { pending: !!status }]}>
+  {
+    href ? (
+      <a class="name" href={href}>
+        {name}
+      </a>
+    ) : (
+      <span class="name">{name}</span>
+    )
+  }
+  <div class="desc"><slot /></div>
+  <div class="foot">
+    {
+      slug && (
+        <span class="downloads" title="Downloads on CurseForge">
+          <Icon name="download" size="0.95rem" />
+          <span data-live-addon={slug} data-value={downloads}>
+            {downloads === undefined ? 'n/a' : formatNumber(downloads)}
+          </span>
+        </span>
+      )
+    }
+    {status && <span class="status">{status}</span>}
+    {
+      href && (
+        <a class="external" href={href} aria-label={`${name} on CurseForge`}>
+          CurseForge <Icon name="external" size="0.85rem" />
+        </a>
+      )
+    }
+  </div>
+</article>
+
+<script>
+  import '../scripts/live-data';
+</script>
+
+<style>
+  .addon-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.05rem 1.15rem 0.95rem;
+    border: 1px solid var(--irosec-border);
+    border-radius: 0.9rem;
+    background: var(--irosec-surface);
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .addon-card:hover {
+    border-color: color-mix(in srgb, var(--sl-color-accent) 60%, transparent);
+    box-shadow: 0 10px 28px -14px color-mix(in srgb, var(--sl-color-accent) 55%, transparent);
+  }
+  .pending {
+    border-style: dashed;
+    background: transparent;
+  }
+  .name {
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--sl-color-white);
+    text-decoration: none;
+    overflow-wrap: anywhere;
+  }
+  a.name:hover {
+    color: var(--sl-color-accent-high);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .desc {
+    flex-grow: 1;
+    font-size: var(--sl-text-sm);
+    line-height: 1.55;
+    color: var(--sl-color-gray-2);
+  }
+  .desc :global(p) {
+    margin: 0;
+  }
+  .desc :global(a) {
+    color: var(--sl-color-accent-high);
+    text-underline-offset: 3px;
+  }
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 0.35rem;
+  }
+  .downloads,
+  .status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    font-size: var(--sl-text-xs);
+    font-weight: 700;
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+  }
+  .downloads {
+    border: 1px solid color-mix(in srgb, var(--sl-color-accent) 45%, transparent);
+    background: var(--sl-color-accent-low);
+    color: var(--sl-color-accent-high);
+  }
+  .status {
+    border: 1px dashed var(--sl-color-gray-4);
+    color: var(--sl-color-gray-2);
+  }
+  .external {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-inline-start: auto;
+    font-size: var(--sl-text-xs);
+    color: var(--sl-color-gray-3);
+    text-decoration: none;
+  }
+  .external:hover {
+    color: var(--sl-color-accent-high);
+  }
+</style>

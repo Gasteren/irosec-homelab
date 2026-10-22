@@ -1,0 +1,51 @@
+---
+// Grid of the technologies the lab runs on, for the home page.
+interface Props {
+  items: { layer: string; tech: string }[];
+}
+
+const { items } = Astro.props;
+---
+
+<ul class="stack-grid not-content">
+  {
+    items.map(({ layer, tech }) => (
+      <li>
+        <span class="layer">{layer}</span>
+        <span class="tech">{tech}</span>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .stack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.9rem 1.1rem;
+    border: 1px solid var(--irosec-border);
+    border-inline-start: 3px solid var(--sl-color-accent);
+    border-radius: 0.75rem;
+    background: var(--irosec-surface);
+  }
+  .layer {
+    font-size: var(--sl-text-xs);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sl-color-gray-3);
+  }
+  .tech {
+    font-weight: 600;
+    color: var(--sl-color-white);
+  }
+</style>

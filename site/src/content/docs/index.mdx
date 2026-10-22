@@ -5,7 +5,8 @@ template: splash
 hero:
   tagline: A working portfolio in infrastructure, security, and published software.
   image:
-    file: ../../assets/hero-logo.png
+    dark: ../../assets/hero-logo.png
+    light: ../../assets/hero-logo-light.png
   actions:
     - text: Browse the docs
       link: /infrastructure/proxmox/
@@ -13,54 +14,44 @@ hero:
       variant: primary
     - text: GitHub
       link: https://github.com/Gasteren/irosec-homelab
-      variant: minimal
+      icon: github
+      variant: secondary
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
-import stats from '../../data/addon-stats.json';
+import HomeStats from '../../components/HomeStats.astro';
+import SectionCards from '../../components/SectionCards.astro';
 import RecentActivity from '../../components/RecentActivity.astro';
+import StackGrid from '../../components/StackGrid.astro';
+
+<HomeStats />
 
 This site covers two things built and maintained in the open: a self hosted homelab run as production infrastructure, and published World of Warcraft addons with real users. Both are documented as they actually are, including the reasoning behind decisions, the known gaps, and the incidents that shaped the current state.
 
-<RecentActivity />
-
 ## Sections
 
-<CardGrid>
-	<Card title="Infrastructure" icon="setting">
-		Proxmox, Docker, networking, Home Assistant.
+<SectionCards
+  items={[
+    { title: 'Infrastructure', icon: 'setting', href: '/infrastructure/proxmox/', section: 'infrastructure', text: 'Proxmox, Docker, networking, Home Assistant.' },
+    { title: 'Security Stack', icon: 'approve-check', href: '/security-stack/firewall/', section: 'security-stack', text: 'Firewall, IDS/IPS, SIEM.' },
+    { title: 'Projects', icon: 'rocket', href: '/projects/vlan-segmentation/', section: 'projects', text: 'Completed project writeups.' },
+    { title: 'Lessons Learned', icon: 'warning', href: '/lessons-learned/', section: 'lessons-learned', text: 'Incidents, gaps, and fixes.' },
+    { title: 'Addons', icon: 'star', href: '/addons/', addons: true, text: 'Published World of Warcraft addons on CurseForge, with download counts that update live.' },
+  ]}
+/>
 
-		[Browse →](/infrastructure/proxmox/)
-	</Card>
-	<Card title="Security Stack" icon="approve-check">
-		Firewall, IDS/IPS, SIEM.
+## Recent activity
 
-		[Browse →](/security-stack/firewall/)
-	</Card>
-	<Card title="Projects" icon="rocket">
-		Completed project writeups.
-
-		[Browse →](/projects/vlan-segmentation/)
-	</Card>
-	<Card title="Lessons Learned" icon="warning">
-		Incidents, gaps, and fixes.
-
-		[Browse →](/lessons-learned/)
-	</Card>
-	<Card title="Addons" icon="star">
-		{stats.addon_count} published World of Warcraft addons, {stats.total_downloads.toLocaleString()} downloads.
-
-		[Browse →](/addons/)
-	</Card>
-</CardGrid>
+<RecentActivity />
 
 ## Stack
 
-| Layer | Technology |
-|---|---|
-| Hypervisor | Proxmox VE |
-| Containers | Docker, Portainer |
-| Smart home | Home Assistant |
-| Networking | UniFi Dream Machine Pro |
-| Reverse proxy | Nginx Proxy Manager |
-| Documentation | Astro Starlight |
+<StackGrid
+  items={[
+    { layer: 'Hypervisor', tech: 'Proxmox VE' },
+    { layer: 'Containers', tech: 'Docker, Portainer' },
+    { layer: 'Smart home', tech: 'Home Assistant' },
+    { layer: 'Networking', tech: 'UniFi Dream Machine Pro' },
+    { layer: 'Reverse proxy', tech: 'Nginx Proxy Manager' },
+    { layer: 'Documentation', tech: 'Astro Starlight' },
+  ]}
+/>
