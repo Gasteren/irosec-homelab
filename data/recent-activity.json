@@ -1,6 +1,55 @@
 {
   "commits": [
     {
+      "repo": "irosec-homelab",
+      "message": "Merge pull request #1 from Gasteren/site-overhaul",
+      "date": "2026-10-22T03:44:14Z",
+      "url": "https://github.com/Gasteren/irosec-homelab/commit/1986e0d1ab8da8e83eca74a08cba55d05f89817f",
+      "sha": "1986e0d"
+    },
+    {
+      "repo": "irosec-homelab",
+      "message": "Always cache plain JSON in the live-data proxy",
+      "date": "2026-10-22T03:40:37Z",
+      "url": "https://github.com/Gasteren/irosec-homelab/commit/607de3eee2051b0ab215c1517c4e9abf12ee43a0",
+      "sha": "607de3e"
+    },
+    {
+      "repo": "irosec-homelab",
+      "message": "Fix hero buttons in production builds, skip the first count-up",
+      "date": "2026-10-22T02:58:19Z",
+      "url": "https://github.com/Gasteren/irosec-homelab/commit/d8bdc2bd80fc5866fe77786290af47458e5eeba7",
+      "sha": "d8bdc2b"
+    },
+    {
+      "repo": "irosec-homelab",
+      "message": "Document the site source and live data flow in the README",
+      "date": "2026-10-22T02:49:16Z",
+      "url": "https://github.com/Gasteren/irosec-homelab/commit/c2eb6c1e20761587af7fa287f75ac7b624da006a",
+      "sha": "c2eb6c1"
+    },
+    {
+      "repo": "irosec-homelab",
+      "message": "Overhaul the site design, keeping its fonts and colors",
+      "date": "2026-10-22T02:49:16Z",
+      "url": "https://github.com/Gasteren/irosec-homelab/commit/382208654a75837ae0ceee16b59635859efa8c47",
+      "sha": "3822086"
+    },
+    {
+      "repo": "irosec-homelab",
+      "message": "Serve addon stats and activity live, without the runner",
+      "date": "2026-10-22T02:49:03Z",
+      "url": "https://github.com/Gasteren/irosec-homelab/commit/6cdd967a1761dc5a6541091ac3442a27569889fc",
+      "sha": "6cdd967"
+    },
+    {
+      "repo": "irosec-homelab",
+      "message": "Move the wiki site source into the repo",
+      "date": "2026-10-22T02:25:40Z",
+      "url": "https://github.com/Gasteren/irosec-homelab/commit/869e0bb861d34535723f23fdde28c6729c8c6e5d",
+      "sha": "869e0bb"
+    },
+    {
       "repo": "TwitchDropsWatcher",
       "message": "Update TwitchDropsWatcher.toc",
       "date": "2026-10-15T22:42:51Z",
@@ -90,55 +139,6 @@
       "date": "2026-10-14T15:29:49Z",
       "url": "https://github.com/Gasteren/HandyNotes_AncientShrines/commit/8078ee1d29ccdb5521d28fab3523b0bf2848e27d",
       "sha": "8078ee1"
-    },
-    {
-      "repo": "Hall-Of-Fallen-Heroes",
-      "message": "Update HallOfFallenHeroes.toc",
-      "date": "2026-10-14T15:29:17Z",
-      "url": "https://github.com/Gasteren/Hall-Of-Fallen-Heroes/commit/0bb7485775097a0a57e69aa6273a4172df98c1b1",
-      "sha": "0bb7485"
-    },
-    {
-      "repo": "FishKeeper",
-      "message": "Update FishKeeper.toc",
-      "date": "2026-10-14T15:28:48Z",
-      "url": "https://github.com/Gasteren/FishKeeper/commit/b0c137b405441d0f582026a6ca3313911f31ce65",
-      "sha": "b0c137b"
-    },
-    {
-      "repo": "BetterBags_Fishing",
-      "message": "Update BetterBags_Fishing.toc",
-      "date": "2026-10-14T15:28:18Z",
-      "url": "https://github.com/Gasteren/BetterBags_Fishing/commit/475e72b77f82a359670263763e6b302a04a87a31",
-      "sha": "475e72b"
-    },
-    {
-      "repo": "AntiSocial",
-      "message": "Update AntiSocial.toc",
-      "date": "2026-10-14T15:27:56Z",
-      "url": "https://github.com/Gasteren/AntiSocial/commit/69f37e8a15ab2f70550de8a23f94a4467b1ce8ab",
-      "sha": "69f37e8"
-    },
-    {
-      "repo": "Adibags_Fishing",
-      "message": "Bump addon version to 12.1.5",
-      "date": "2026-10-14T15:27:31Z",
-      "url": "https://github.com/Gasteren/Adibags_Fishing/commit/888d4e18bc797c9aeaa43fc264fd7ea9f660562e",
-      "sha": "888d4e1"
-    },
-    {
-      "repo": "TwitchDropsWatcher",
-      "message": "Update release metadata to 12.1.5",
-      "date": "2026-10-14T15:27:00Z",
-      "url": "https://github.com/Gasteren/TwitchDropsWatcher/commit/a2dca978198f02d2ec70bc85053b92ae9df62749",
-      "sha": "a2dca97"
-    },
-    {
-      "repo": "TimeStamp",
-      "message": "Update supported game versions to 12.1.5",
-      "date": "2026-10-14T15:26:00Z",
-      "url": "https://github.com/Gasteren/TimeStamp/commit/e7ffec61768f3927980e6f00c6bdf7ccc7232039",
-      "sha": "e7ffec6"
     }
   ]
 }
