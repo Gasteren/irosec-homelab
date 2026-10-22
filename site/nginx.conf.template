@@ -41,6 +41,9 @@ server {
         proxy_set_header Host raw.githubusercontent.com;
         proxy_set_header Cookie "";
         proxy_set_header Authorization "";
+        # Ask GitHub for plain JSON: the cache key has no encoding in it, so
+        # a gzip body cached for one client would be served to every client.
+        proxy_set_header Accept-Encoding "";
         proxy_connect_timeout 5s;
         proxy_read_timeout 10s;
 
